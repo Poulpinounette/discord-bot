@@ -7,7 +7,7 @@ import Hug from './commands/Hug';
 import Kiss from './commands/Kiss';
 import Pat from './commands/Pat';
 
-if(process.env.PROD == true){
+if(process.env.PROD == "TRUE"){
     let app = express()
     app.get("/", (request, response) => {
 
