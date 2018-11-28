@@ -27,7 +27,7 @@ class App {
             
             let json = {l: this.label, m: message, c:this.client}
             this.commands.forEach(c => c.parse(json))
-        } else console.log(message.content)
+        }
     }
 
     run(){

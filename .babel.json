@@ -1,0 +1,1804 @@
+{
+  "{\"filename\":\"/app/src/index.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "http",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "http"
+              }
+            ]
+          },
+          {
+            "source": "./app/App",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "App"
+              }
+            ]
+          },
+          {
+            "source": "./commands/Hug",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Hug"
+              }
+            ]
+          },
+          {
+            "source": "./commands/Kiss",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Kiss"
+              }
+            ]
+          },
+          {
+            "source": "./commands/Pat",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Pat"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/src/index.js",
+      "filenameRelative": "/app/src/index.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "index.js",
+      "sourceFileName": "index.js",
+      "sourceRoot": "/app/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "index"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _http = require('http');\n\nvar _http2 = _interopRequireDefault(_http);\n\nvar _App = require('./app/App');\n\nvar _App2 = _interopRequireDefault(_App);\n\nvar _Hug = require('./commands/Hug');\n\nvar _Hug2 = _interopRequireDefault(_Hug);\n\nvar _Kiss = require('./commands/Kiss');\n\nvar _Kiss2 = _interopRequireDefault(_Kiss);\n\nvar _Pat = require('./commands/Pat');\n\nvar _Pat2 = _interopRequireDefault(_Pat);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nif (process.env.PROD == \"TRUE\") {\n    console.log(\"PRODUCTION MODE !\");\n    var app = (0, _express2.default)();\n    app.get(\"/\", function (request, response) {\n\n        response.sendStatus(200);\n    });\n    app.listen(process.env.PORT);\n    setInterval(function () {\n        _http2.default.get('http://' + process.env.PROJECT_DOMAIN + '.glitch.me/');\n    }, 1000 * 60 * 5); // 5 minutes\n}\n\n// command //\n\n\nnew _Hug2.default(), new _Kiss2.default(), new _Pat2.default();\n\n_App2.default.run();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbInByb2Nlc3MiLCJlbnYiLCJQUk9EIiwiY29uc29sZSIsImxvZyIsImFwcCIsImdldCIsInJlcXVlc3QiLCJyZXNwb25zZSIsInNlbmRTdGF0dXMiLCJsaXN0ZW4iLCJQT1JUIiwic2V0SW50ZXJ2YWwiLCJodHRwIiwiUFJPSkVDVF9ET01BSU4iLCJIdWciLCJLaXNzIiwiUGF0IiwiQXBwIiwicnVuIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUdBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7O0FBQ0EsSUFBR0EsUUFBUUMsR0FBUixDQUFZQyxJQUFaLElBQW9CLE1BQXZCLEVBQThCO0FBQzFCQyxZQUFRQyxHQUFSLENBQVksbUJBQVo7QUFDQSxRQUFJQyxNQUFNLHdCQUFWO0FBQ0FBLFFBQUlDLEdBQUosQ0FBUSxHQUFSLEVBQWEsVUFBQ0MsT0FBRCxFQUFVQyxRQUFWLEVBQXVCOztBQUVoQ0EsaUJBQVNDLFVBQVQsQ0FBb0IsR0FBcEI7QUFDSCxLQUhEO0FBSUFKLFFBQUlLLE1BQUosQ0FBV1YsUUFBUUMsR0FBUixDQUFZVSxJQUF2QjtBQUNJQyxnQkFBWSxZQUFNO0FBQ2xCQyx1QkFBS1AsR0FBTCxhQUFtQk4sUUFBUUMsR0FBUixDQUFZYSxjQUEvQjtBQUNILEtBRkcsRUFFQSxPQUFPLEVBQVIsR0FBYyxDQUZiLEVBUnNCLENBVU47QUFDdkI7O0FBZkQ7OztBQWtCQSxJQUFJQyxhQUFKLElBQVcsSUFBSUMsY0FBSixFQUFYLEVBQXVCLElBQUlDLGFBQUosRUFBdkI7O0FBR0FDLGNBQUlDLEdBQUoiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL2FwcC9zcmMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZXhwcmVzcyBmcm9tICdleHByZXNzJztcbmltcG9ydCBodHRwIGZyb20gJ2h0dHAnO1xuaW1wb3J0IEFwcCBmcm9tICcuL2FwcC9BcHAnO1xuXG4vLyBjb21tYW5kIC8vXG5pbXBvcnQgSHVnIGZyb20gJy4vY29tbWFuZHMvSHVnJztcbmltcG9ydCBLaXNzIGZyb20gJy4vY29tbWFuZHMvS2lzcyc7XG5pbXBvcnQgUGF0IGZyb20gJy4vY29tbWFuZHMvUGF0JztcbmlmKHByb2Nlc3MuZW52LlBST0QgPT0gXCJUUlVFXCIpe1xuICAgIGNvbnNvbGUubG9nKFwiUFJPRFVDVElPTiBNT0RFICFcIilcbiAgICBsZXQgYXBwID0gZXhwcmVzcygpXG4gICAgYXBwLmdldChcIi9cIiwgKHJlcXVlc3QsIHJlc3BvbnNlKSA9PiB7XG5cbiAgICAgICAgcmVzcG9uc2Uuc2VuZFN0YXR1cygyMDApXG4gICAgfSlcbiAgICBhcHAubGlzdGVuKHByb2Nlc3MuZW52LlBPUlQpXG4gICAgICAgIHNldEludGVydmFsKCgpID0+IHtcbiAgICAgICAgaHR0cC5nZXQoYGh0dHA6Ly8ke3Byb2Nlc3MuZW52LlBST0pFQ1RfRE9NQUlOfS5nbGl0Y2gubWUvYClcbiAgICB9LCAoMTAwMCAqIDYwKSAqIDUpIC8vIDUgbWludXRlc1xufVxuXG5cbm5ldyBIdWcoKSwgbmV3IEtpc3MoKSwgbmV3IFBhdCgpXG5cblxuQXBwLnJ1bigpIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "index.js"
+      ],
+      "names": [
+        "process",
+        "env",
+        "PROD",
+        "console",
+        "log",
+        "app",
+        "get",
+        "request",
+        "response",
+        "sendStatus",
+        "listen",
+        "PORT",
+        "setInterval",
+        "http",
+        "PROJECT_DOMAIN",
+        "Hug",
+        "Kiss",
+        "Pat",
+        "App",
+        "run"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AAGA;;;;AACA;;;;AACA;;;;;;AACA,IAAGA,QAAQC,GAAR,CAAYC,IAAZ,IAAoB,MAAvB,EAA8B;AAC1BC,YAAQC,GAAR,CAAY,mBAAZ;AACA,QAAIC,MAAM,wBAAV;AACAA,QAAIC,GAAJ,CAAQ,GAAR,EAAa,UAACC,OAAD,EAAUC,QAAV,EAAuB;;AAEhCA,iBAASC,UAAT,CAAoB,GAApB;AACH,KAHD;AAIAJ,QAAIK,MAAJ,CAAWV,QAAQC,GAAR,CAAYU,IAAvB;AACIC,gBAAY,YAAM;AAClBC,uBAAKP,GAAL,aAAmBN,QAAQC,GAAR,CAAYa,cAA/B;AACH,KAFG,EAEA,OAAO,EAAR,GAAc,CAFb,EARsB,CAUN;AACvB;;AAfD;;;AAkBA,IAAIC,aAAJ,IAAW,IAAIC,cAAJ,EAAX,EAAuB,IAAIC,aAAJ,EAAvB;;AAGAC,cAAIC,GAAJ",
+      "file": "index.js",
+      "sourceRoot": "/app/src",
+      "sourcesContent": [
+        "import express from 'express';\nimport http from 'http';\nimport App from './app/App';\n\n// command //\nimport Hug from './commands/Hug';\nimport Kiss from './commands/Kiss';\nimport Pat from './commands/Pat';\nif(process.env.PROD == \"TRUE\"){\n    console.log(\"PRODUCTION MODE !\")\n    let app = express()\n    app.get(\"/\", (request, response) => {\n\n        response.sendStatus(200)\n    })\n    app.listen(process.env.PORT)\n        setInterval(() => {\n        http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`)\n    }, (1000 * 60) * 5) // 5 minutes\n}\n\n\nnew Hug(), new Kiss(), new Pat()\n\n\nApp.run()"
+      ]
+    },
+    "mtime": 1543272674000
+  },
+  "{\"filename\":\"/app/src/app/App.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "createClass",
+        "classCallCheck",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "discord.js",
+            "imported": [
+              "default",
+              "Message"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "discord"
+              },
+              {
+                "kind": "named",
+                "imported": "Message",
+                "local": "Message"
+              }
+            ]
+          },
+          {
+            "source": "./Command",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Command"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/src/app/App.js",
+      "filenameRelative": "/app/src/app/App.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "App.js",
+      "sourceFileName": "App.js",
+      "sourceRoot": "/app/src/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/src/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "App"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _discord = require('discord.js');\n\nvar _discord2 = _interopRequireDefault(_discord);\n\nvar _Command = require('./Command');\n\nvar _Command2 = _interopRequireDefault(_Command);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar App = function () {\n    function App(label) {\n        var _this = this;\n\n        _classCallCheck(this, App);\n\n        this.label = label;\n        this.commands = [];\n        this.client = new _discord2.default.Client();\n\n        //\n        this.client.on(\"ready\", this.ready);\n        this.client.on(\"message\", function (e) {\n            return _this.message(e);\n        });\n        this.client.on(\"error\", console.error);\n    }\n\n    _createClass(App, [{\n        key: 'ready',\n        value: function ready() {\n            console.log(\"login !\");\n        }\n\n        /**\n         * @param {Message} message \n         */\n\n    }, {\n        key: 'message',\n        value: function message(_message) {\n            if (_message.content.charAt(0) == this.label) {\n\n                var json = { l: this.label, m: _message, c: this.client };\n                this.commands.forEach(function (c) {\n                    return c.parse(json);\n                });\n            }\n        }\n    }, {\n        key: 'run',\n        value: function run() {\n            this.client.login(process.env.BOT_TOKEN);\n        }\n\n        /**\n         * \n         * @param  {...Command} commands \n         */\n\n    }, {\n        key: 'addCommand',\n        value: function addCommand() {\n            var _this2 = this;\n\n            for (var _len = arguments.length, commands = Array(_len), _key = 0; _key < _len; _key++) {\n                commands[_key] = arguments[_key];\n            }\n\n            commands.forEach(function (e) {\n                return _this2.commands.push(e);\n            });\n        }\n    }]);\n\n    return App;\n}();\n\n;\n\nvar app = new App(\"$\");\nexports.default = app;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJsYWJlbCIsImNvbW1hbmRzIiwiY2xpZW50IiwiZGlzY29yZCIsIkNsaWVudCIsIm9uIiwicmVhZHkiLCJlIiwibWVzc2FnZSIsImNvbnNvbGUiLCJlcnJvciIsImxvZyIsImNvbnRlbnQiLCJjaGFyQXQiLCJqc29uIiwibCIsIm0iLCJjIiwiZm9yRWFjaCIsInBhcnNlIiwibG9naW4iLCJwcm9jZXNzIiwiZW52IiwiQk9UX1RPS0VOIiwicHVzaCIsImFwcCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTs7OztBQUNBOzs7Ozs7OztJQUVNQSxHO0FBQ0YsaUJBQVlDLEtBQVosRUFBa0I7QUFBQTs7QUFBQTs7QUFDZCxhQUFLQSxLQUFMLEdBQWFBLEtBQWI7QUFDQSxhQUFLQyxRQUFMLEdBQWdCLEVBQWhCO0FBQ0EsYUFBS0MsTUFBTCxHQUFjLElBQUlDLGtCQUFRQyxNQUFaLEVBQWQ7O0FBRUE7QUFDQSxhQUFLRixNQUFMLENBQVlHLEVBQVosQ0FBZSxPQUFmLEVBQXdCLEtBQUtDLEtBQTdCO0FBQ0EsYUFBS0osTUFBTCxDQUFZRyxFQUFaLENBQWUsU0FBZixFQUEwQixVQUFDRSxDQUFEO0FBQUEsbUJBQU8sTUFBS0MsT0FBTCxDQUFhRCxDQUFiLENBQVA7QUFBQSxTQUExQjtBQUNBLGFBQUtMLE1BQUwsQ0FBWUcsRUFBWixDQUFlLE9BQWYsRUFBd0JJLFFBQVFDLEtBQWhDO0FBQ0g7Ozs7Z0NBR007QUFDSEQsb0JBQVFFLEdBQVIsQ0FBWSxTQUFaO0FBQ0g7O0FBR0Q7Ozs7OztnQ0FHUUgsUSxFQUFTO0FBQ2IsZ0JBQUdBLFNBQVFJLE9BQVIsQ0FBZ0JDLE1BQWhCLENBQXVCLENBQXZCLEtBQTZCLEtBQUtiLEtBQXJDLEVBQTJDOztBQUV2QyxvQkFBSWMsT0FBTyxFQUFDQyxHQUFHLEtBQUtmLEtBQVQsRUFBZ0JnQixHQUFHUixRQUFuQixFQUE0QlMsR0FBRSxLQUFLZixNQUFuQyxFQUFYO0FBQ0EscUJBQUtELFFBQUwsQ0FBY2lCLE9BQWQsQ0FBc0I7QUFBQSwyQkFBS0QsRUFBRUUsS0FBRixDQUFRTCxJQUFSLENBQUw7QUFBQSxpQkFBdEI7QUFDSDtBQUNKOzs7OEJBRUk7QUFDRCxpQkFBS1osTUFBTCxDQUFZa0IsS0FBWixDQUFrQkMsUUFBUUMsR0FBUixDQUFZQyxTQUE5QjtBQUNIOztBQUVEOzs7Ozs7O3FDQUl1QjtBQUFBOztBQUFBLDhDQUFUdEIsUUFBUztBQUFUQSx3QkFBUztBQUFBOztBQUNuQkEscUJBQVNpQixPQUFULENBQWlCO0FBQUEsdUJBQUssT0FBS2pCLFFBQUwsQ0FBY3VCLElBQWQsQ0FBbUJqQixDQUFuQixDQUFMO0FBQUEsYUFBakI7QUFDSDs7Ozs7O0FBRUo7O0FBRUQsSUFBSWtCLE1BQU0sSUFBSTFCLEdBQUosQ0FBUSxHQUFSLENBQVY7a0JBQ2UwQixHIiwiZmlsZSI6IkFwcC5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3NyYy9hcHAiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZGlzY29yZCwgeyBNZXNzYWdlIH0gZnJvbSAnZGlzY29yZC5qcyc7XG5pbXBvcnQgQ29tbWFuZCBmcm9tICcuL0NvbW1hbmQnO1xuXG5jbGFzcyBBcHAge1xuICAgIGNvbnN0cnVjdG9yKGxhYmVsKXtcbiAgICAgICAgdGhpcy5sYWJlbCA9IGxhYmVsO1xuICAgICAgICB0aGlzLmNvbW1hbmRzID0gW107XG4gICAgICAgIHRoaXMuY2xpZW50ID0gbmV3IGRpc2NvcmQuQ2xpZW50KClcblxuICAgICAgICAvL1xuICAgICAgICB0aGlzLmNsaWVudC5vbihcInJlYWR5XCIsIHRoaXMucmVhZHkpXG4gICAgICAgIHRoaXMuY2xpZW50Lm9uKFwibWVzc2FnZVwiLCAoZSkgPT4gdGhpcy5tZXNzYWdlKGUpKVxuICAgICAgICB0aGlzLmNsaWVudC5vbihcImVycm9yXCIsIGNvbnNvbGUuZXJyb3IpICAgICAgICBcbiAgICB9XG5cblxuICAgIHJlYWR5KCl7XG4gICAgICAgIGNvbnNvbGUubG9nKFwibG9naW4gIVwiKTtcbiAgICB9XG5cblxuICAgIC8qKlxuICAgICAqIEBwYXJhbSB7TWVzc2FnZX0gbWVzc2FnZSBcbiAgICAgKi9cbiAgICBtZXNzYWdlKG1lc3NhZ2UpIHtcbiAgICAgICAgaWYobWVzc2FnZS5jb250ZW50LmNoYXJBdCgwKSA9PSB0aGlzLmxhYmVsKXtcbiAgICAgICAgICAgIFxuICAgICAgICAgICAgbGV0IGpzb24gPSB7bDogdGhpcy5sYWJlbCwgbTogbWVzc2FnZSwgYzp0aGlzLmNsaWVudH1cbiAgICAgICAgICAgIHRoaXMuY29tbWFuZHMuZm9yRWFjaChjID0+IGMucGFyc2UoanNvbikpXG4gICAgICAgIH1cbiAgICB9XG5cbiAgICBydW4oKXtcbiAgICAgICAgdGhpcy5jbGllbnQubG9naW4ocHJvY2Vzcy5lbnYuQk9UX1RPS0VOKVxuICAgIH1cblxuICAgIC8qKlxuICAgICAqIFxuICAgICAqIEBwYXJhbSAgey4uLkNvbW1hbmR9IGNvbW1hbmRzIFxuICAgICAqL1xuICAgIGFkZENvbW1hbmQoLi4uY29tbWFuZHMpe1xuICAgICAgICBjb21tYW5kcy5mb3JFYWNoKGUgPT4gdGhpcy5jb21tYW5kcy5wdXNoKGUpKVxuICAgIH1cblxufTtcblxubGV0IGFwcCA9IG5ldyBBcHAoXCIkXCIpO1xuZXhwb3J0IGRlZmF1bHQgYXBwOyJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "App.js"
+      ],
+      "names": [
+        "App",
+        "label",
+        "commands",
+        "client",
+        "discord",
+        "Client",
+        "on",
+        "ready",
+        "e",
+        "message",
+        "console",
+        "error",
+        "log",
+        "content",
+        "charAt",
+        "json",
+        "l",
+        "m",
+        "c",
+        "forEach",
+        "parse",
+        "login",
+        "process",
+        "env",
+        "BOT_TOKEN",
+        "push",
+        "app"
+      ],
+      "mappings": ";;;;;;;;AAAA;;;;AACA;;;;;;;;IAEMA,G;AACF,iBAAYC,KAAZ,EAAkB;AAAA;;AAAA;;AACd,aAAKA,KAAL,GAAaA,KAAb;AACA,aAAKC,QAAL,GAAgB,EAAhB;AACA,aAAKC,MAAL,GAAc,IAAIC,kBAAQC,MAAZ,EAAd;;AAEA;AACA,aAAKF,MAAL,CAAYG,EAAZ,CAAe,OAAf,EAAwB,KAAKC,KAA7B;AACA,aAAKJ,MAAL,CAAYG,EAAZ,CAAe,SAAf,EAA0B,UAACE,CAAD;AAAA,mBAAO,MAAKC,OAAL,CAAaD,CAAb,CAAP;AAAA,SAA1B;AACA,aAAKL,MAAL,CAAYG,EAAZ,CAAe,OAAf,EAAwBI,QAAQC,KAAhC;AACH;;;;gCAGM;AACHD,oBAAQE,GAAR,CAAY,SAAZ;AACH;;AAGD;;;;;;gCAGQH,Q,EAAS;AACb,gBAAGA,SAAQI,OAAR,CAAgBC,MAAhB,CAAuB,CAAvB,KAA6B,KAAKb,KAArC,EAA2C;;AAEvC,oBAAIc,OAAO,EAACC,GAAG,KAAKf,KAAT,EAAgBgB,GAAGR,QAAnB,EAA4BS,GAAE,KAAKf,MAAnC,EAAX;AACA,qBAAKD,QAAL,CAAciB,OAAd,CAAsB;AAAA,2BAAKD,EAAEE,KAAF,CAAQL,IAAR,CAAL;AAAA,iBAAtB;AACH;AACJ;;;8BAEI;AACD,iBAAKZ,MAAL,CAAYkB,KAAZ,CAAkBC,QAAQC,GAAR,CAAYC,SAA9B;AACH;;AAED;;;;;;;qCAIuB;AAAA;;AAAA,8CAATtB,QAAS;AAATA,wBAAS;AAAA;;AACnBA,qBAASiB,OAAT,CAAiB;AAAA,uBAAK,OAAKjB,QAAL,CAAcuB,IAAd,CAAmBjB,CAAnB,CAAL;AAAA,aAAjB;AACH;;;;;;AAEJ;;AAED,IAAIkB,MAAM,IAAI1B,GAAJ,CAAQ,GAAR,CAAV;kBACe0B,G",
+      "file": "App.js",
+      "sourceRoot": "/app/src/app",
+      "sourcesContent": [
+        "import discord, { Message } from 'discord.js';\nimport Command from './Command';\n\nclass App {\n    constructor(label){\n        this.label = label;\n        this.commands = [];\n        this.client = new discord.Client()\n\n        //\n        this.client.on(\"ready\", this.ready)\n        this.client.on(\"message\", (e) => this.message(e))\n        this.client.on(\"error\", console.error)        \n    }\n\n\n    ready(){\n        console.log(\"login !\");\n    }\n\n\n    /**\n     * @param {Message} message \n     */\n    message(message) {\n        if(message.content.charAt(0) == this.label){\n            \n            let json = {l: this.label, m: message, c:this.client}\n            this.commands.forEach(c => c.parse(json))\n        }\n    }\n\n    run(){\n        this.client.login(process.env.BOT_TOKEN)\n    }\n\n    /**\n     * \n     * @param  {...Command} commands \n     */\n    addCommand(...commands){\n        commands.forEach(e => this.commands.push(e))\n    }\n\n};\n\nlet app = new App(\"$\");\nexport default app;"
+      ]
+    },
+    "mtime": 1542654723000
+  },
+  "{\"filename\":\"/app/src/app/Command.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "createClass",
+        "classCallCheck",
+        "interopRequireWildcard",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "discord.js",
+            "imported": [
+              "*"
+            ],
+            "specifiers": [
+              {
+                "kind": "namespace",
+                "local": "discord"
+              }
+            ]
+          },
+          {
+            "source": "./App",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "App"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "Command"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "Command",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/src/app/Command.js",
+      "filenameRelative": "/app/src/app/Command.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Command.js",
+      "sourceFileName": "Command.js",
+      "sourceRoot": "/app/src/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/src/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Command"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _discord = require('discord.js');\n\nvar discord = _interopRequireWildcard(_discord);\n\nvar _App = require('./App');\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Command = function () {\n    function Command(name) {\n        _classCallCheck(this, Command);\n\n        this.name = name;\n        this.app = _App2.default;\n        this.message = null;\n        this.client = null;\n        this.label = null;\n        this.app.addCommand(this);\n    }\n\n    _createClass(Command, [{\n        key: 'parse',\n        value: function parse(token) {\n            if (this.label == null || this.client == null) {\n                this.client = token[\"c\"];\n                this.label = token[\"l\"];\n            }\n\n            this.message = token[\"m\"];\n            if (this.message.content.startsWith(this.label + this.name)) {\n                if (this.isMatch(this.message)) {\n                    this.action(this.message);\n                }\n            }\n        }\n\n        /**\n         * \n         * @param {discord.Message} message \n         * @return {Boolean} bool\n         */\n\n    }, {\n        key: 'isMatch',\n        value: function isMatch(message) {}\n\n        /**\n         * \n         * @param {discord.Message} message \n         */\n\n    }, {\n        key: 'action',\n        value: function action(message) {}\n\n        /**\n         * @return {String} message without the label and commandName\n         */\n\n    }, {\n        key: 'getMessageOut',\n        value: function getMessageOut() {\n            return this.message.content.replace(this.label + this.name, \"\");\n        }\n\n        /**\n         * @return {discord.Message} \n         */\n\n    }, {\n        key: 'getMessage',\n        value: function getMessage() {\n            return this.message;\n        }\n\n        /**\n         * @return {discord.Channel}\n         */\n\n    }, {\n        key: 'getChannel',\n        value: function getChannel() {\n            return this.message.channel;\n        }\n\n        /**\n         * @return {discord.User} author\n         */\n\n    }, {\n        key: 'getAuthor',\n        value: function getAuthor() {\n            return this.message.author;\n        }\n\n        /**\n         * @return {discord.User} client\n         */\n\n    }, {\n        key: 'getClien',\n        value: function getClien() {\n            return this.client;\n        }\n\n        /**\n         * @return {discord.GuildMember} member\n         */\n\n    }, {\n        key: 'getMemberFirst',\n        value: function getMemberFirst() {\n            var member = this.message.mentions.members.first();\n            if (typeof member == \"undefined\") {\n                return null;\n            }\n            return member;\n        }\n\n        /**\n         * @return {discord.RichEmbed} embed\n         */\n\n    }, {\n        key: 'creatEmbed',\n        value: function creatEmbed() {\n            return new discord.RichEmbed();\n        }\n    }]);\n\n    return Command;\n}();\n\nexports.default = Command;\n;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNvbW1hbmQuanMiXSwibmFtZXMiOlsiZGlzY29yZCIsIkNvbW1hbmQiLCJuYW1lIiwiYXBwIiwiQXBwIiwibWVzc2FnZSIsImNsaWVudCIsImxhYmVsIiwiYWRkQ29tbWFuZCIsInRva2VuIiwiY29udGVudCIsInN0YXJ0c1dpdGgiLCJpc01hdGNoIiwiYWN0aW9uIiwicmVwbGFjZSIsImNoYW5uZWwiLCJhdXRob3IiLCJtZW1iZXIiLCJtZW50aW9ucyIsIm1lbWJlcnMiLCJmaXJzdCIsIlJpY2hFbWJlZCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTs7SUFBWUEsTzs7QUFDWjs7Ozs7Ozs7OztJQUdxQkMsTztBQUNqQixxQkFBWUMsSUFBWixFQUFpQjtBQUFBOztBQUNiLGFBQUtBLElBQUwsR0FBWUEsSUFBWjtBQUNBLGFBQUtDLEdBQUwsR0FBV0MsYUFBWDtBQUNBLGFBQUtDLE9BQUwsR0FBZSxJQUFmO0FBQ0EsYUFBS0MsTUFBTCxHQUFjLElBQWQ7QUFDQSxhQUFLQyxLQUFMLEdBQWEsSUFBYjtBQUNBLGFBQUtKLEdBQUwsQ0FBU0ssVUFBVCxDQUFvQixJQUFwQjtBQUNIOzs7OzhCQUVLQyxLLEVBQU07QUFDUixnQkFBRyxLQUFLRixLQUFMLElBQWMsSUFBZCxJQUFzQixLQUFLRCxNQUFMLElBQWUsSUFBeEMsRUFBNkM7QUFDekMscUJBQUtBLE1BQUwsR0FBY0csTUFBTSxHQUFOLENBQWQ7QUFDQSxxQkFBS0YsS0FBTCxHQUFhRSxNQUFNLEdBQU4sQ0FBYjtBQUNIOztBQUVELGlCQUFLSixPQUFMLEdBQWVJLE1BQU0sR0FBTixDQUFmO0FBQ0EsZ0JBQUcsS0FBS0osT0FBTCxDQUFhSyxPQUFiLENBQXFCQyxVQUFyQixDQUFnQyxLQUFLSixLQUFMLEdBQVksS0FBS0wsSUFBakQsQ0FBSCxFQUEwRDtBQUN0RCxvQkFBRyxLQUFLVSxPQUFMLENBQWEsS0FBS1AsT0FBbEIsQ0FBSCxFQUE4QjtBQUMxQix5QkFBS1EsTUFBTCxDQUFZLEtBQUtSLE9BQWpCO0FBQ0g7QUFDSjtBQUNKOztBQUVEOzs7Ozs7OztnQ0FLUUEsTyxFQUFRLENBRWY7O0FBRUQ7Ozs7Ozs7K0JBSU9BLE8sRUFBUSxDQUVkOztBQUVEOzs7Ozs7d0NBR2U7QUFDWCxtQkFBTyxLQUFLQSxPQUFMLENBQWFLLE9BQWIsQ0FBcUJJLE9BQXJCLENBQTZCLEtBQUtQLEtBQUwsR0FBYSxLQUFLTCxJQUEvQyxFQUFxRCxFQUFyRCxDQUFQO0FBQ0g7O0FBRUQ7Ozs7OztxQ0FHWTtBQUNSLG1CQUFPLEtBQUtHLE9BQVo7QUFDSDs7QUFFRDs7Ozs7O3FDQUdZO0FBQ1IsbUJBQU8sS0FBS0EsT0FBTCxDQUFhVSxPQUFwQjtBQUNIOztBQUVEOzs7Ozs7b0NBR1c7QUFDUCxtQkFBTyxLQUFLVixPQUFMLENBQWFXLE1BQXBCO0FBQ0g7O0FBRUQ7Ozs7OzttQ0FHVTtBQUNOLG1CQUFPLEtBQUtWLE1BQVo7QUFDSDs7QUFFRDs7Ozs7O3lDQUdnQjtBQUNaLGdCQUFJVyxTQUFTLEtBQUtaLE9BQUwsQ0FBYWEsUUFBYixDQUFzQkMsT0FBdEIsQ0FBOEJDLEtBQTlCLEVBQWI7QUFDQSxnQkFBRyxPQUFPSCxNQUFQLElBQWlCLFdBQXBCLEVBQWdDO0FBQzVCLHVCQUFPLElBQVA7QUFDSDtBQUNELG1CQUFPQSxNQUFQO0FBQ0g7O0FBRUQ7Ozs7OztxQ0FHWTtBQUNSLG1CQUFPLElBQUlqQixRQUFRcUIsU0FBWixFQUFQO0FBQ0g7Ozs7OztrQkE1RmdCcEIsTztBQThGcEIiLCJmaWxlIjoiQ29tbWFuZC5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3NyYy9hcHAiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgKiBhcyBkaXNjb3JkIGZyb20gJ2Rpc2NvcmQuanMnO1xuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7XG5cblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgQ29tbWFuZCB7XG4gICAgY29uc3RydWN0b3IobmFtZSl7XG4gICAgICAgIHRoaXMubmFtZSA9IG5hbWU7XG4gICAgICAgIHRoaXMuYXBwID0gQXBwO1xuICAgICAgICB0aGlzLm1lc3NhZ2UgPSBudWxsO1xuICAgICAgICB0aGlzLmNsaWVudCA9IG51bGw7XG4gICAgICAgIHRoaXMubGFiZWwgPSBudWxsO1xuICAgICAgICB0aGlzLmFwcC5hZGRDb21tYW5kKHRoaXMpXG4gICAgfVxuXG4gICAgcGFyc2UodG9rZW4pe1xuICAgICAgICBpZih0aGlzLmxhYmVsID09IG51bGwgfHwgdGhpcy5jbGllbnQgPT0gbnVsbCl7XG4gICAgICAgICAgICB0aGlzLmNsaWVudCA9IHRva2VuW1wiY1wiXVxuICAgICAgICAgICAgdGhpcy5sYWJlbCA9IHRva2VuW1wibFwiXVxuICAgICAgICB9XG5cbiAgICAgICAgdGhpcy5tZXNzYWdlID0gdG9rZW5bXCJtXCJdXG4gICAgICAgIGlmKHRoaXMubWVzc2FnZS5jb250ZW50LnN0YXJ0c1dpdGgodGhpcy5sYWJlbCsgdGhpcy5uYW1lKSl7XG4gICAgICAgICAgICBpZih0aGlzLmlzTWF0Y2godGhpcy5tZXNzYWdlKSl7XG4gICAgICAgICAgICAgICAgdGhpcy5hY3Rpb24odGhpcy5tZXNzYWdlKVxuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgfVxuXG4gICAgLyoqXG4gICAgICogXG4gICAgICogQHBhcmFtIHtkaXNjb3JkLk1lc3NhZ2V9IG1lc3NhZ2UgXG4gICAgICogQHJldHVybiB7Qm9vbGVhbn0gYm9vbFxuICAgICAqL1xuICAgIGlzTWF0Y2gobWVzc2FnZSl7XG5cbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBcbiAgICAgKiBAcGFyYW0ge2Rpc2NvcmQuTWVzc2FnZX0gbWVzc2FnZSBcbiAgICAgKi9cbiAgICBhY3Rpb24obWVzc2FnZSl7XG5cbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBAcmV0dXJuIHtTdHJpbmd9IG1lc3NhZ2Ugd2l0aG91dCB0aGUgbGFiZWwgYW5kIGNvbW1hbmROYW1lXG4gICAgICovXG4gICAgZ2V0TWVzc2FnZU91dCgpe1xuICAgICAgICByZXR1cm4gdGhpcy5tZXNzYWdlLmNvbnRlbnQucmVwbGFjZSh0aGlzLmxhYmVsICsgdGhpcy5uYW1lLCBcIlwiKTtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBAcmV0dXJuIHtkaXNjb3JkLk1lc3NhZ2V9IFxuICAgICAqL1xuICAgIGdldE1lc3NhZ2UoKXtcbiAgICAgICAgcmV0dXJuIHRoaXMubWVzc2FnZTtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBAcmV0dXJuIHtkaXNjb3JkLkNoYW5uZWx9XG4gICAgICovXG4gICAgZ2V0Q2hhbm5lbCgpe1xuICAgICAgICByZXR1cm4gdGhpcy5tZXNzYWdlLmNoYW5uZWw7XG4gICAgfVxuXG4gICAgLyoqXG4gICAgICogQHJldHVybiB7ZGlzY29yZC5Vc2VyfSBhdXRob3JcbiAgICAgKi9cbiAgICBnZXRBdXRob3IoKXtcbiAgICAgICAgcmV0dXJuIHRoaXMubWVzc2FnZS5hdXRob3I7XG4gICAgfVxuXG4gICAgLyoqXG4gICAgICogQHJldHVybiB7ZGlzY29yZC5Vc2VyfSBjbGllbnRcbiAgICAgKi9cbiAgICBnZXRDbGllbigpe1xuICAgICAgICByZXR1cm4gdGhpcy5jbGllbnRcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBAcmV0dXJuIHtkaXNjb3JkLkd1aWxkTWVtYmVyfSBtZW1iZXJcbiAgICAgKi9cbiAgICBnZXRNZW1iZXJGaXJzdCgpe1xuICAgICAgICBsZXQgbWVtYmVyID0gdGhpcy5tZXNzYWdlLm1lbnRpb25zLm1lbWJlcnMuZmlyc3QoKVxuICAgICAgICBpZih0eXBlb2YgbWVtYmVyID09IFwidW5kZWZpbmVkXCIpe1xuICAgICAgICAgICAgcmV0dXJuIG51bGw7XG4gICAgICAgIH1cbiAgICAgICAgcmV0dXJuIG1lbWJlcjtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBAcmV0dXJuIHtkaXNjb3JkLlJpY2hFbWJlZH0gZW1iZWRcbiAgICAgKi9cbiAgICBjcmVhdEVtYmVkKCl7XG4gICAgICAgIHJldHVybiBuZXcgZGlzY29yZC5SaWNoRW1iZWQoKVxuICAgIH1cblxufTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Command.js"
+      ],
+      "names": [
+        "discord",
+        "Command",
+        "name",
+        "app",
+        "App",
+        "message",
+        "client",
+        "label",
+        "addCommand",
+        "token",
+        "content",
+        "startsWith",
+        "isMatch",
+        "action",
+        "replace",
+        "channel",
+        "author",
+        "member",
+        "mentions",
+        "members",
+        "first",
+        "RichEmbed"
+      ],
+      "mappings": ";;;;;;;;AAAA;;IAAYA,O;;AACZ;;;;;;;;;;IAGqBC,O;AACjB,qBAAYC,IAAZ,EAAiB;AAAA;;AACb,aAAKA,IAAL,GAAYA,IAAZ;AACA,aAAKC,GAAL,GAAWC,aAAX;AACA,aAAKC,OAAL,GAAe,IAAf;AACA,aAAKC,MAAL,GAAc,IAAd;AACA,aAAKC,KAAL,GAAa,IAAb;AACA,aAAKJ,GAAL,CAASK,UAAT,CAAoB,IAApB;AACH;;;;8BAEKC,K,EAAM;AACR,gBAAG,KAAKF,KAAL,IAAc,IAAd,IAAsB,KAAKD,MAAL,IAAe,IAAxC,EAA6C;AACzC,qBAAKA,MAAL,GAAcG,MAAM,GAAN,CAAd;AACA,qBAAKF,KAAL,GAAaE,MAAM,GAAN,CAAb;AACH;;AAED,iBAAKJ,OAAL,GAAeI,MAAM,GAAN,CAAf;AACA,gBAAG,KAAKJ,OAAL,CAAaK,OAAb,CAAqBC,UAArB,CAAgC,KAAKJ,KAAL,GAAY,KAAKL,IAAjD,CAAH,EAA0D;AACtD,oBAAG,KAAKU,OAAL,CAAa,KAAKP,OAAlB,CAAH,EAA8B;AAC1B,yBAAKQ,MAAL,CAAY,KAAKR,OAAjB;AACH;AACJ;AACJ;;AAED;;;;;;;;gCAKQA,O,EAAQ,CAEf;;AAED;;;;;;;+BAIOA,O,EAAQ,CAEd;;AAED;;;;;;wCAGe;AACX,mBAAO,KAAKA,OAAL,CAAaK,OAAb,CAAqBI,OAArB,CAA6B,KAAKP,KAAL,GAAa,KAAKL,IAA/C,EAAqD,EAArD,CAAP;AACH;;AAED;;;;;;qCAGY;AACR,mBAAO,KAAKG,OAAZ;AACH;;AAED;;;;;;qCAGY;AACR,mBAAO,KAAKA,OAAL,CAAaU,OAApB;AACH;;AAED;;;;;;oCAGW;AACP,mBAAO,KAAKV,OAAL,CAAaW,MAApB;AACH;;AAED;;;;;;mCAGU;AACN,mBAAO,KAAKV,MAAZ;AACH;;AAED;;;;;;yCAGgB;AACZ,gBAAIW,SAAS,KAAKZ,OAAL,CAAaa,QAAb,CAAsBC,OAAtB,CAA8BC,KAA9B,EAAb;AACA,gBAAG,OAAOH,MAAP,IAAiB,WAApB,EAAgC;AAC5B,uBAAO,IAAP;AACH;AACD,mBAAOA,MAAP;AACH;;AAED;;;;;;qCAGY;AACR,mBAAO,IAAIjB,QAAQqB,SAAZ,EAAP;AACH;;;;;;kBA5FgBpB,O;AA8FpB",
+      "file": "Command.js",
+      "sourceRoot": "/app/src/app",
+      "sourcesContent": [
+        "import * as discord from 'discord.js';\nimport App from './App';\n\n\nexport default class Command {\n    constructor(name){\n        this.name = name;\n        this.app = App;\n        this.message = null;\n        this.client = null;\n        this.label = null;\n        this.app.addCommand(this)\n    }\n\n    parse(token){\n        if(this.label == null || this.client == null){\n            this.client = token[\"c\"]\n            this.label = token[\"l\"]\n        }\n\n        this.message = token[\"m\"]\n        if(this.message.content.startsWith(this.label+ this.name)){\n            if(this.isMatch(this.message)){\n                this.action(this.message)\n            }\n        }\n    }\n\n    /**\n     * \n     * @param {discord.Message} message \n     * @return {Boolean} bool\n     */\n    isMatch(message){\n\n    }\n\n    /**\n     * \n     * @param {discord.Message} message \n     */\n    action(message){\n\n    }\n\n    /**\n     * @return {String} message without the label and commandName\n     */\n    getMessageOut(){\n        return this.message.content.replace(this.label + this.name, \"\");\n    }\n\n    /**\n     * @return {discord.Message} \n     */\n    getMessage(){\n        return this.message;\n    }\n\n    /**\n     * @return {discord.Channel}\n     */\n    getChannel(){\n        return this.message.channel;\n    }\n\n    /**\n     * @return {discord.User} author\n     */\n    getAuthor(){\n        return this.message.author;\n    }\n\n    /**\n     * @return {discord.User} client\n     */\n    getClien(){\n        return this.client\n    }\n\n    /**\n     * @return {discord.GuildMember} member\n     */\n    getMemberFirst(){\n        let member = this.message.mentions.members.first()\n        if(typeof member == \"undefined\"){\n            return null;\n        }\n        return member;\n    }\n\n    /**\n     * @return {discord.RichEmbed} embed\n     */\n    creatEmbed(){\n        return new discord.RichEmbed()\n    }\n\n};\n"
+      ]
+    },
+    "mtime": 1542652666000
+  },
+  "{\"filename\":\"/app/src/commands/Hug.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src/commands\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "inherits",
+        "get",
+        "possibleConstructorReturn",
+        "createClass",
+        "classCallCheck",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "../app/Command",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Command"
+              }
+            ]
+          },
+          {
+            "source": "discord.js",
+            "imported": [
+              "Message"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Message",
+                "local": "Message"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "Hug"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "Hug",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/src/commands/Hug.js",
+      "filenameRelative": "/app/src/commands/Hug.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Hug.js",
+      "sourceFileName": "Hug.js",
+      "sourceRoot": "/app/src/commands",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/src/commands",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Hug"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if (\"value\" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };\n\nvar _Command2 = require('../app/Command');\n\nvar _Command3 = _interopRequireDefault(_Command2);\n\nvar _discord = require('discord.js');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Hug = function (_Command) {\n    _inherits(Hug, _Command);\n\n    function Hug() {\n        _classCallCheck(this, Hug);\n\n        return _possibleConstructorReturn(this, (Hug.__proto__ || Object.getPrototypeOf(Hug)).call(this, \"hug\"));\n    }\n\n    /**\n     * \n     * @param {Message} message \n     * @returns {Boolean} bool\n     */\n\n\n    _createClass(Hug, [{\n        key: 'isMatch',\n        value: function isMatch(message) {\n            if (this.getMemberFirst() == null) {\n                var embed = this.creatEmbed().setImage(\"https://media.giphy.com/media/3LGQOIQfV9xzJXwXZi/giphy.gif\").setColor(\"#778ca3\").setDescription(+\"se fait un câlin seul(e)\");\n                message.channel.send(embed);\n                return false;\n            } else return true;\n        }\n\n        /**\n         * \n         * @param {Message} message \n         */\n\n    }, {\n        key: 'action',\n        value: function action(message) {\n            var member = this.getMemberFirst();\n            var msg = [\" fait un câlin à \", \" tombe dans les bras de \", \" prend dans ses bras \", \" se colle à \", \" se jette sur \"];\n            var msgr = Math.floor(Math.random() * msg.length);\n            var images = [];\n            images.push(\"https://media.giphy.com/media/BXrwTdoho6hkQ/giphy.gif\", \"https://media1.tenor.com/images/87feeff9cc8cf5c207081d136bc20522/tenor.gif?itemid=12879962\");\n            images.push(\"https://media.giphy.com/media/2A8wpqmaiM3bBWgNq8/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/xUmU6i3QSuAoaXuqHV/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/Qf6lspOy5FTGRiPFd2/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/u47DKkWjepxPOIjcrY/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/TDuWdoURycd9KUTIqZ/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/3kHz1pSYGjPurmnCcs/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/lpVUezAPBtmb8AEvr6/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/w85PPjj9TqyM0lDl53/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/4VU9CtgtcW0PlgF8ID/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/2cehTEZeWHJGt1joxm/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/2fNJEZjWL7vpzKyyqS/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/25IjD0lzTF2Gr4QLDe/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/5eyhBKLvYhafu/giphy.gif\", \"https://media1.tenor.com/images/a8c546a034a97b22509723dcd2b50fd2/tenor.gif?itemid=5659915\");\n            images.push(\"https://media1.tenor.com/images/6db54c4d6dad5f1f2863d878cfb2d8df/tenor.gif?itemid=7324587\", \"https://media1.tenor.com/images/1f7b0ceb53e128a6d9f4d39cef074d93/tenor.gif?itemid=11098325\", \"https://media1.tenor.com/images/40aed63f5bc795ed7a980d0ad5c387f2/tenor.gif?itemid=11098589\", \"https://media1.tenor.com/images/09005550fb8642d13e544d2045a409c5/tenor.gif?itemid=7883854\", \"https://media1.tenor.com/images/cd0d06e057bf6a01cd5f9bb5d7971b08/tenor.gif?itemid=5662307\");\n            var imager = Math.floor(Math.random() * images.length);\n            var embed = this.creatEmbed().setImage(images[imager]).setColor(\"#eb3b5a\").setDescription(this.getAuthor().toString() + msg[msgr] + member.toString()).setTitle(images[imager]);\n            message.channel.send(embed);\n        }\n    }, {\n        key: 'parse',\n        value: function parse(token) {\n            _get(Hug.prototype.__proto__ || Object.getPrototypeOf(Hug.prototype), 'parse', this).call(this, token);\n        }\n    }]);\n\n    return Hug;\n}(_Command3.default);\n\nexports.default = Hug;\n;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkh1Zy5qcyJdLCJuYW1lcyI6WyJIdWciLCJtZXNzYWdlIiwiZ2V0TWVtYmVyRmlyc3QiLCJlbWJlZCIsImNyZWF0RW1iZWQiLCJzZXRJbWFnZSIsInNldENvbG9yIiwic2V0RGVzY3JpcHRpb24iLCJjaGFubmVsIiwic2VuZCIsIm1lbWJlciIsIm1zZyIsIm1zZ3IiLCJNYXRoIiwiZmxvb3IiLCJyYW5kb20iLCJsZW5ndGgiLCJpbWFnZXMiLCJwdXNoIiwiaW1hZ2VyIiwiZ2V0QXV0aG9yIiwidG9TdHJpbmciLCJzZXRUaXRsZSIsInRva2VuIiwiQ29tbWFuZCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBOzs7O0FBQ0E7Ozs7Ozs7Ozs7SUFFcUJBLEc7OztBQUNqQixtQkFBYztBQUFBOztBQUFBLHlHQUNKLEtBREk7QUFFYjs7QUFFRDs7Ozs7Ozs7O2dDQUtRQyxPLEVBQVE7QUFDWixnQkFBRyxLQUFLQyxjQUFMLE1BQXlCLElBQTVCLEVBQWlDO0FBQzdCLG9CQUFJQyxRQUFRLEtBQUtDLFVBQUwsR0FDWEMsUUFEVyxDQUNGLDREQURFLEVBRVhDLFFBRlcsQ0FFRixTQUZFLEVBR1hDLGNBSFcsQ0FHSyxDQUFFLDBCQUhQLENBQVo7QUFJQU4sd0JBQVFPLE9BQVIsQ0FBZ0JDLElBQWhCLENBQXFCTixLQUFyQjtBQUNBLHVCQUFPLEtBQVA7QUFDSCxhQVBELE1BT08sT0FBTyxJQUFQO0FBQ1Y7O0FBRUQ7Ozs7Ozs7K0JBSU9GLE8sRUFBUTtBQUNYLGdCQUFJUyxTQUFTLEtBQUtSLGNBQUwsRUFBYjtBQUNBLGdCQUFJUyxNQUFNLENBQUMsbUJBQUQsRUFBc0IsMEJBQXRCLEVBQWtELHVCQUFsRCxFQUEyRSxjQUEzRSxFQUEyRixnQkFBM0YsQ0FBVjtBQUNBLGdCQUFJQyxPQUFPQyxLQUFLQyxLQUFMLENBQVdELEtBQUtFLE1BQUwsS0FBZ0JKLElBQUlLLE1BQS9CLENBQVg7QUFDQSxnQkFBSUMsU0FBUyxFQUFiO0FBQ0FBLG1CQUFPQyxJQUFQLENBQVksdURBQVosRUFBcUUsNEZBQXJFO0FBQ0FELG1CQUFPQyxJQUFQLENBQVksNERBQVo7QUFDQUQsbUJBQU9DLElBQVAsQ0FBWSw0REFBWjtBQUNBRCxtQkFBT0MsSUFBUCxDQUFZLDREQUFaO0FBQ0FELG1CQUFPQyxJQUFQLENBQVksNERBQVo7QUFDQUQsbUJBQU9DLElBQVAsQ0FBWSw0REFBWjtBQUNBRCxtQkFBT0MsSUFBUCxDQUFZLDREQUFaO0FBQ0FELG1CQUFPQyxJQUFQLENBQVksNERBQVo7QUFDQUQsbUJBQU9DLElBQVAsQ0FBWSw0REFBWjtBQUNBRCxtQkFBT0MsSUFBUCxDQUFZLDREQUFaO0FBQ0FELG1CQUFPQyxJQUFQLENBQVksNERBQVo7QUFDQUQsbUJBQU9DLElBQVAsQ0FBWSw0REFBWjtBQUNBRCxtQkFBT0MsSUFBUCxDQUFZLDREQUFaO0FBQ0FELG1CQUFPQyxJQUFQLENBQVksdURBQVosRUFBcUUsMkZBQXJFO0FBQ0FELG1CQUFPQyxJQUFQLENBQVksMkZBQVosRUFBeUcsNEZBQXpHLEVBQXVNLDRGQUF2TSxFQUFxUywyRkFBclMsRUFBa1ksMkZBQWxZO0FBQ0EsZ0JBQUlDLFNBQVNOLEtBQUtDLEtBQUwsQ0FBV0QsS0FBS0UsTUFBTCxLQUFnQkUsT0FBT0QsTUFBbEMsQ0FBYjtBQUNBLGdCQUFJYixRQUFRLEtBQUtDLFVBQUwsR0FDWEMsUUFEVyxDQUNGWSxPQUFPRSxNQUFQLENBREUsRUFFWGIsUUFGVyxDQUVGLFNBRkUsRUFHWEMsY0FIVyxDQUdJLEtBQUthLFNBQUwsR0FBaUJDLFFBQWpCLEtBQThCVixJQUFJQyxJQUFKLENBQTlCLEdBQTBDRixPQUFPVyxRQUFQLEVBSDlDLEVBSVhDLFFBSlcsQ0FJRkwsT0FBT0UsTUFBUCxDQUpFLENBQVo7QUFLQWxCLG9CQUFRTyxPQUFSLENBQWdCQyxJQUFoQixDQUFxQk4sS0FBckI7QUFDSDs7OzhCQUlLb0IsSyxFQUFNO0FBQ1IsNEdBQVlBLEtBQVo7QUFDSDs7OztFQTFENEJDLGlCOztrQkFBWnhCLEc7QUEyRHBCIiwiZmlsZSI6Ikh1Zy5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3NyYy9jb21tYW5kcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBDb21tYW5kIGZyb20gJy4uL2FwcC9Db21tYW5kJztcbmltcG9ydCB7IE1lc3NhZ2UgfSBmcm9tICdkaXNjb3JkLmpzJztcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgSHVnIGV4dGVuZHMgQ29tbWFuZCB7XG4gICAgY29uc3RydWN0b3IoKSB7XG4gICAgICAgIHN1cGVyKFwiaHVnXCIpXG4gICAgfVxuXG4gICAgLyoqXG4gICAgICogXG4gICAgICogQHBhcmFtIHtNZXNzYWdlfSBtZXNzYWdlIFxuICAgICAqIEByZXR1cm5zIHtCb29sZWFufSBib29sXG4gICAgICovXG4gICAgaXNNYXRjaChtZXNzYWdlKXtcbiAgICAgICAgaWYodGhpcy5nZXRNZW1iZXJGaXJzdCgpID09IG51bGwpe1xuICAgICAgICAgICAgbGV0IGVtYmVkID0gdGhpcy5jcmVhdEVtYmVkKClcbiAgICAgICAgICAgIC5zZXRJbWFnZShcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhLzNMR1FPSVFmVjl4ekpYd1haaS9naXBoeS5naWZcIilcbiAgICAgICAgICAgIC5zZXRDb2xvcihcIiM3NzhjYTNcIilcbiAgICAgICAgICAgIC5zZXREZXNjcmlwdGlvbiggKyBcInNlIGZhaXQgdW4gY8OibGluIHNldWwoZSlcIik7XG4gICAgICAgICAgICBtZXNzYWdlLmNoYW5uZWwuc2VuZChlbWJlZClcbiAgICAgICAgICAgIHJldHVybiBmYWxzZTsgICAgICAgIFxuICAgICAgICB9IGVsc2UgcmV0dXJuIHRydWU7XG4gICAgfVxuXG4gICAgLyoqXG4gICAgICogXG4gICAgICogQHBhcmFtIHtNZXNzYWdlfSBtZXNzYWdlIFxuICAgICAqL1xuICAgIGFjdGlvbihtZXNzYWdlKXtcbiAgICAgICAgbGV0IG1lbWJlciA9IHRoaXMuZ2V0TWVtYmVyRmlyc3QoKVxuICAgICAgICBsZXQgbXNnID0gW1wiIGZhaXQgdW4gY8OibGluIMOgIFwiLCBcIiB0b21iZSBkYW5zIGxlcyBicmFzIGRlIFwiLCBcIiBwcmVuZCBkYW5zIHNlcyBicmFzIFwiLCBcIiBzZSBjb2xsZSDDoCBcIiwgXCIgc2UgamV0dGUgc3VyIFwiXVxuICAgICAgICBsZXQgbXNnciA9IE1hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIG1zZy5sZW5ndGgpXG4gICAgICAgIHZhciBpbWFnZXMgPSBbXVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhL0JYcndUZG9obzZoa1EvZ2lwaHkuZ2lmXCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy84N2ZlZWZmOWNjOGNmNWMyMDcwODFkMTM2YmMyMDUyMi90ZW5vci5naWY/aXRlbWlkPTEyODc5OTYyXCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvMkE4d3BxbWFpTTNiQldnTnE4L2dpcGh5LmdpZlwiKVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhL3hVbVU2aTNRU3VBb2FYdXFIVi9naXBoeS5naWZcIilcbiAgICAgICAgaW1hZ2VzLnB1c2goXCJodHRwczovL21lZGlhLmdpcGh5LmNvbS9tZWRpYS9RZjZsc3BPeTVGVEdSaVBGZDIvZ2lwaHkuZ2lmXCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvdTQ3REtrV2plcHhQT0lqY3JZL2dpcGh5LmdpZlwiKVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhL1REdVdkb1VSeWNkOUtVVElxWi9naXBoeS5naWZcIilcbiAgICAgICAgaW1hZ2VzLnB1c2goXCJodHRwczovL21lZGlhLmdpcGh5LmNvbS9tZWRpYS8za0h6MXBTWUdqUHVybW5DY3MvZ2lwaHkuZ2lmXCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvbHBWVWV6QVBCdG1iOEFFdnI2L2dpcGh5LmdpZlwiKVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhL3c4NVBQamo5VHF5TTBsRGw1My9naXBoeS5naWZcIilcbiAgICAgICAgaW1hZ2VzLnB1c2goXCJodHRwczovL21lZGlhLmdpcGh5LmNvbS9tZWRpYS80VlU5Q3RndGNXMFBsZ0Y4SUQvZ2lwaHkuZ2lmXCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvMmNlaFRFWmVXSEpHdDFqb3htL2dpcGh5LmdpZlwiKVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhLzJmTkpFWmpXTDd2cHpLeXlxUy9naXBoeS5naWZcIilcbiAgICAgICAgaW1hZ2VzLnB1c2goXCJodHRwczovL21lZGlhLmdpcGh5LmNvbS9tZWRpYS8yNUlqRDBselRGMkdyNFFMRGUvZ2lwaHkuZ2lmXCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvNWV5aEJLTHZZaGFmdS9naXBoeS5naWZcIiwgXCJodHRwczovL21lZGlhMS50ZW5vci5jb20vaW1hZ2VzL2E4YzU0NmEwMzRhOTdiMjI1MDk3MjNkY2QyYjUwZmQyL3Rlbm9yLmdpZj9pdGVtaWQ9NTY1OTkxNVwiKVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWExLnRlbm9yLmNvbS9pbWFnZXMvNmRiNTRjNGQ2ZGFkNWYxZjI4NjNkODc4Y2ZiMmQ4ZGYvdGVub3IuZ2lmP2l0ZW1pZD03MzI0NTg3XCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy8xZjdiMGNlYjUzZTEyOGE2ZDlmNGQzOWNlZjA3NGQ5My90ZW5vci5naWY/aXRlbWlkPTExMDk4MzI1XCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy80MGFlZDYzZjViYzc5NWVkN2E5ODBkMGFkNWMzODdmMi90ZW5vci5naWY/aXRlbWlkPTExMDk4NTg5XCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy8wOTAwNTU1MGZiODY0MmQxM2U1NDRkMjA0NWE0MDljNS90ZW5vci5naWY/aXRlbWlkPTc4ODM4NTRcIiwgXCJodHRwczovL21lZGlhMS50ZW5vci5jb20vaW1hZ2VzL2NkMGQwNmUwNTdiZjZhMDFjZDVmOWJiNWQ3OTcxYjA4L3Rlbm9yLmdpZj9pdGVtaWQ9NTY2MjMwN1wiKVxuICAgICAgICB2YXIgaW1hZ2VyID0gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogaW1hZ2VzLmxlbmd0aClcbiAgICAgICAgbGV0IGVtYmVkID0gdGhpcy5jcmVhdEVtYmVkKClcbiAgICAgICAgLnNldEltYWdlKGltYWdlc1tpbWFnZXJdKVxuICAgICAgICAuc2V0Q29sb3IoXCIjZWIzYjVhXCIpXG4gICAgICAgIC5zZXREZXNjcmlwdGlvbih0aGlzLmdldEF1dGhvcigpLnRvU3RyaW5nKCkgKyBtc2dbbXNncl0gKyBtZW1iZXIudG9TdHJpbmcoKSlcbiAgICAgICAgLnNldFRpdGxlKGltYWdlc1tpbWFnZXJdKVxuICAgICAgICBtZXNzYWdlLmNoYW5uZWwuc2VuZChlbWJlZCk7XG4gICAgfVxuXG5cblxuICAgIHBhcnNlKHRva2VuKXtcbiAgICAgICAgc3VwZXIucGFyc2UodG9rZW4pXG4gICAgfVxufTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Hug.js"
+      ],
+      "names": [
+        "Hug",
+        "message",
+        "getMemberFirst",
+        "embed",
+        "creatEmbed",
+        "setImage",
+        "setColor",
+        "setDescription",
+        "channel",
+        "send",
+        "member",
+        "msg",
+        "msgr",
+        "Math",
+        "floor",
+        "random",
+        "length",
+        "images",
+        "push",
+        "imager",
+        "getAuthor",
+        "toString",
+        "setTitle",
+        "token",
+        "Command"
+      ],
+      "mappings": ";;;;;;;;;;AAAA;;;;AACA;;;;;;;;;;IAEqBA,G;;;AACjB,mBAAc;AAAA;;AAAA,yGACJ,KADI;AAEb;;AAED;;;;;;;;;gCAKQC,O,EAAQ;AACZ,gBAAG,KAAKC,cAAL,MAAyB,IAA5B,EAAiC;AAC7B,oBAAIC,QAAQ,KAAKC,UAAL,GACXC,QADW,CACF,4DADE,EAEXC,QAFW,CAEF,SAFE,EAGXC,cAHW,CAGK,CAAE,0BAHP,CAAZ;AAIAN,wBAAQO,OAAR,CAAgBC,IAAhB,CAAqBN,KAArB;AACA,uBAAO,KAAP;AACH,aAPD,MAOO,OAAO,IAAP;AACV;;AAED;;;;;;;+BAIOF,O,EAAQ;AACX,gBAAIS,SAAS,KAAKR,cAAL,EAAb;AACA,gBAAIS,MAAM,CAAC,mBAAD,EAAsB,0BAAtB,EAAkD,uBAAlD,EAA2E,cAA3E,EAA2F,gBAA3F,CAAV;AACA,gBAAIC,OAAOC,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgBJ,IAAIK,MAA/B,CAAX;AACA,gBAAIC,SAAS,EAAb;AACAA,mBAAOC,IAAP,CAAY,uDAAZ,EAAqE,4FAArE;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,4DAAZ;AACAD,mBAAOC,IAAP,CAAY,uDAAZ,EAAqE,2FAArE;AACAD,mBAAOC,IAAP,CAAY,2FAAZ,EAAyG,4FAAzG,EAAuM,4FAAvM,EAAqS,2FAArS,EAAkY,2FAAlY;AACA,gBAAIC,SAASN,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgBE,OAAOD,MAAlC,CAAb;AACA,gBAAIb,QAAQ,KAAKC,UAAL,GACXC,QADW,CACFY,OAAOE,MAAP,CADE,EAEXb,QAFW,CAEF,SAFE,EAGXC,cAHW,CAGI,KAAKa,SAAL,GAAiBC,QAAjB,KAA8BV,IAAIC,IAAJ,CAA9B,GAA0CF,OAAOW,QAAP,EAH9C,EAIXC,QAJW,CAIFL,OAAOE,MAAP,CAJE,CAAZ;AAKAlB,oBAAQO,OAAR,CAAgBC,IAAhB,CAAqBN,KAArB;AACH;;;8BAIKoB,K,EAAM;AACR,4GAAYA,KAAZ;AACH;;;;EA1D4BC,iB;;kBAAZxB,G;AA2DpB",
+      "file": "Hug.js",
+      "sourceRoot": "/app/src/commands",
+      "sourcesContent": [
+        "import Command from '../app/Command';\nimport { Message } from 'discord.js';\n\nexport default class Hug extends Command {\n    constructor() {\n        super(\"hug\")\n    }\n\n    /**\n     * \n     * @param {Message} message \n     * @returns {Boolean} bool\n     */\n    isMatch(message){\n        if(this.getMemberFirst() == null){\n            let embed = this.creatEmbed()\n            .setImage(\"https://media.giphy.com/media/3LGQOIQfV9xzJXwXZi/giphy.gif\")\n            .setColor(\"#778ca3\")\n            .setDescription( + \"se fait un câlin seul(e)\");\n            message.channel.send(embed)\n            return false;        \n        } else return true;\n    }\n\n    /**\n     * \n     * @param {Message} message \n     */\n    action(message){\n        let member = this.getMemberFirst()\n        let msg = [\" fait un câlin à \", \" tombe dans les bras de \", \" prend dans ses bras \", \" se colle à \", \" se jette sur \"]\n        let msgr = Math.floor(Math.random() * msg.length)\n        var images = []\n        images.push(\"https://media.giphy.com/media/BXrwTdoho6hkQ/giphy.gif\", \"https://media1.tenor.com/images/87feeff9cc8cf5c207081d136bc20522/tenor.gif?itemid=12879962\")\n        images.push(\"https://media.giphy.com/media/2A8wpqmaiM3bBWgNq8/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/xUmU6i3QSuAoaXuqHV/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/Qf6lspOy5FTGRiPFd2/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/u47DKkWjepxPOIjcrY/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/TDuWdoURycd9KUTIqZ/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/3kHz1pSYGjPurmnCcs/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/lpVUezAPBtmb8AEvr6/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/w85PPjj9TqyM0lDl53/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/4VU9CtgtcW0PlgF8ID/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/2cehTEZeWHJGt1joxm/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/2fNJEZjWL7vpzKyyqS/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/25IjD0lzTF2Gr4QLDe/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/5eyhBKLvYhafu/giphy.gif\", \"https://media1.tenor.com/images/a8c546a034a97b22509723dcd2b50fd2/tenor.gif?itemid=5659915\")\n        images.push(\"https://media1.tenor.com/images/6db54c4d6dad5f1f2863d878cfb2d8df/tenor.gif?itemid=7324587\", \"https://media1.tenor.com/images/1f7b0ceb53e128a6d9f4d39cef074d93/tenor.gif?itemid=11098325\", \"https://media1.tenor.com/images/40aed63f5bc795ed7a980d0ad5c387f2/tenor.gif?itemid=11098589\", \"https://media1.tenor.com/images/09005550fb8642d13e544d2045a409c5/tenor.gif?itemid=7883854\", \"https://media1.tenor.com/images/cd0d06e057bf6a01cd5f9bb5d7971b08/tenor.gif?itemid=5662307\")\n        var imager = Math.floor(Math.random() * images.length)\n        let embed = this.creatEmbed()\n        .setImage(images[imager])\n        .setColor(\"#eb3b5a\")\n        .setDescription(this.getAuthor().toString() + msg[msgr] + member.toString())\n        .setTitle(images[imager])\n        message.channel.send(embed);\n    }\n\n\n\n    parse(token){\n        super.parse(token)\n    }\n};\n"
+      ]
+    },
+    "mtime": 1542734992000
+  },
+  "{\"filename\":\"/app/src/commands/Kiss.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src/commands\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "inherits",
+        "get",
+        "possibleConstructorReturn",
+        "createClass",
+        "classCallCheck",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "../app/Command",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Command"
+              }
+            ]
+          },
+          {
+            "source": "discord.js",
+            "imported": [
+              "Message"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Message",
+                "local": "Message"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "Empty"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "Empty",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/src/commands/Kiss.js",
+      "filenameRelative": "/app/src/commands/Kiss.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Kiss.js",
+      "sourceFileName": "Kiss.js",
+      "sourceRoot": "/app/src/commands",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/src/commands",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Kiss"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if (\"value\" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };\n\nvar _Command2 = require('../app/Command');\n\nvar _Command3 = _interopRequireDefault(_Command2);\n\nvar _discord = require('discord.js');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Empty = function (_Command) {\n    _inherits(Empty, _Command);\n\n    function Empty() {\n        _classCallCheck(this, Empty);\n\n        return _possibleConstructorReturn(this, (Empty.__proto__ || Object.getPrototypeOf(Empty)).call(this, \"kiss\"));\n    }\n\n    /**\n     * \n     * @param {Message} message \n     * @returns {Boolean} bool\n     */\n\n\n    _createClass(Empty, [{\n        key: 'isMatch',\n        value: function isMatch(message) {\n            if (this.getMemberFirst() == null) {\n                message.reply(\"Tu dois m'entionner quelqu'un pour faire cette commande\").catch(console.error);\n                return false;\n            } else {\n                return true;\n            }\n            return false;\n        }\n\n        /**\n         * \n         * @param {Message} message \n         */\n\n    }, {\n        key: 'action',\n        value: function action(message) {\n            var membre = this.getMemberFirst();\n            var msg = [\" embrasse \", \" colle ses lèvres à \"];\n            var aleatoire = Math.floor(Math.random() * msg.length);\n            var images = [];\n            images.push(\"https://media.giphy.com/media/QGc8RgRvMonFm/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/Z2sivLSfN8FH2/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/OSq9souL3j5zW/giphy.gif\");\n            images.push(\"https://media.giphy.com/media/tZmWHlQT36oZW/giphy.gif\");\n            images.push(\"https://media.tenor.com/images/dc16e8164f2686c786a1091df47c9f3c/tenor.gif\", \"https://media.tenor.com/images/a496f6c08cdf01c97365e917d7a229dc/tenor.gif\", \"https://media1.tenor.com/images/bbdab4bf04291719f2714e433a0e8158/tenor.gif?itemid=4941205\", \"https://media1.tenor.com/images/d1a11805180742c70339a6bfd7745f8d/tenor.gif?itemid=4883557\");\n            images.push(\"https://media1.tenor.com/images/8c73673bce3a7ee43611dbef708373b7/tenor.gif?itemid=4874602\", \"https://media.tenor.com/images/2f65e7c8862af5e49fbc7b2a75ea3538/tenor.gif\", \"https://media1.tenor.com/images/4fa475b07f614bafec7fdcedd3bcb54e/tenor.gif?itemid=12050959\", \"https://media.tenor.com/images/f5761223e8678320d177078495c9839a/tenor.gif\", \"https://media1.tenor.com/images/a2332f49f11038faa1a76b049d5d4818/tenor.gif?itemid=5666774\", \"https://media1.tenor.com/images/38cb1aa7b691941199c00b94f1dcb562/tenor.gif?itemid=12910425\", \"https://media1.tenor.com/images/cd35415d623fb7e4801ba214ab2d98a6/tenor.gif?itemid=12912330\");\n            var ale = Math.floor(Math.random() * images.length);\n            var embed = this.creatEmbed().setImage(images[ale]).setColor(\"#eb3b5a\").setDescription(message.member.toString() + msg[aleatoire] + membre.toString()).setTitle(images[ale]);\n            message.channel.send(embed);\n        }\n    }, {\n        key: 'parse',\n        value: function parse(token) {\n            _get(Empty.prototype.__proto__ || Object.getPrototypeOf(Empty.prototype), 'parse', this).call(this, token);\n        }\n    }]);\n\n    return Empty;\n}(_Command3.default);\n\nexports.default = Empty;\n;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIktpc3MuanMiXSwibmFtZXMiOlsiRW1wdHkiLCJtZXNzYWdlIiwiZ2V0TWVtYmVyRmlyc3QiLCJyZXBseSIsImNhdGNoIiwiY29uc29sZSIsImVycm9yIiwibWVtYnJlIiwibXNnIiwiYWxlYXRvaXJlIiwiTWF0aCIsImZsb29yIiwicmFuZG9tIiwibGVuZ3RoIiwiaW1hZ2VzIiwicHVzaCIsImFsZSIsImVtYmVkIiwiY3JlYXRFbWJlZCIsInNldEltYWdlIiwic2V0Q29sb3IiLCJzZXREZXNjcmlwdGlvbiIsIm1lbWJlciIsInRvU3RyaW5nIiwic2V0VGl0bGUiLCJjaGFubmVsIiwic2VuZCIsInRva2VuIiwiQ29tbWFuZCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBOzs7O0FBQ0E7Ozs7Ozs7Ozs7SUFFcUJBLEs7OztBQUNqQixxQkFBYztBQUFBOztBQUFBLDZHQUNKLE1BREk7QUFFYjs7QUFFRDs7Ozs7Ozs7O2dDQUtRQyxPLEVBQVE7QUFDWixnQkFBRyxLQUFLQyxjQUFMLE1BQXlCLElBQTVCLEVBQWlDO0FBQzdCRCx3QkFBUUUsS0FBUixDQUFjLHlEQUFkLEVBQXlFQyxLQUF6RSxDQUErRUMsUUFBUUMsS0FBdkY7QUFDQSx1QkFBTyxLQUFQO0FBQ0gsYUFIRCxNQUdPO0FBQ0gsdUJBQU8sSUFBUDtBQUNIO0FBQ0QsbUJBQU8sS0FBUDtBQUNIOztBQUVEOzs7Ozs7OytCQUlPTCxPLEVBQVE7QUFDWCxnQkFBSU0sU0FBUyxLQUFLTCxjQUFMLEVBQWI7QUFDQSxnQkFBSU0sTUFBTSxDQUFDLFlBQUQsRUFBZSxzQkFBZixDQUFWO0FBQ0EsZ0JBQUlDLFlBQVlDLEtBQUtDLEtBQUwsQ0FBV0QsS0FBS0UsTUFBTCxLQUFnQkosSUFBSUssTUFBL0IsQ0FBaEI7QUFDQSxnQkFBSUMsU0FBUyxFQUFiO0FBQ0FBLG1CQUFPQyxJQUFQLENBQVksdURBQVo7QUFDQUQsbUJBQU9DLElBQVAsQ0FBWSx1REFBWjtBQUNBRCxtQkFBT0MsSUFBUCxDQUFZLHVEQUFaO0FBQ0FELG1CQUFPQyxJQUFQLENBQVksdURBQVo7QUFDQUQsbUJBQU9DLElBQVAsQ0FBWSwyRUFBWixFQUF5RiwyRUFBekYsRUFBc0ssMkZBQXRLLEVBQW1RLDJGQUFuUTtBQUNBRCxtQkFBT0MsSUFBUCxDQUFZLDJGQUFaLEVBQXlHLDJFQUF6RyxFQUFzTCw0RkFBdEwsRUFBb1IsMkVBQXBSLEVBQWlXLDJGQUFqVyxFQUE4Yiw0RkFBOWIsRUFBNGhCLDRGQUE1aEI7QUFDQSxnQkFBSUMsTUFBTU4sS0FBS0MsS0FBTCxDQUFXRCxLQUFLRSxNQUFMLEtBQWdCRSxPQUFPRCxNQUFsQyxDQUFWO0FBQ0EsZ0JBQUlJLFFBQVEsS0FBS0MsVUFBTCxHQUNQQyxRQURPLENBQ0dMLE9BQU9FLEdBQVAsQ0FESCxFQUVQSSxRQUZPLENBRUUsU0FGRixFQUdQQyxjQUhPLENBR1FwQixRQUFRcUIsTUFBUixDQUFlQyxRQUFmLEtBQTRCZixJQUFJQyxTQUFKLENBQTVCLEdBQTZDRixPQUFPZ0IsUUFBUCxFQUhyRCxFQUlQQyxRQUpPLENBSUVWLE9BQU9FLEdBQVAsQ0FKRixDQUFaO0FBS0FmLG9CQUFRd0IsT0FBUixDQUFnQkMsSUFBaEIsQ0FBcUJULEtBQXJCO0FBQ0g7Ozs4QkFJS1UsSyxFQUFNO0FBQ1IsZ0hBQVlBLEtBQVo7QUFDSDs7OztFQWhEOEJDLGlCOztrQkFBZDVCLEs7QUFpRHBCIiwiZmlsZSI6Iktpc3MuanMiLCJzb3VyY2VSb290IjoiL2FwcC9zcmMvY29tbWFuZHMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ29tbWFuZCBmcm9tICcuLi9hcHAvQ29tbWFuZCc7XG5pbXBvcnQgeyBNZXNzYWdlIH0gZnJvbSAnZGlzY29yZC5qcyc7XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIEVtcHR5IGV4dGVuZHMgQ29tbWFuZCB7XG4gICAgY29uc3RydWN0b3IoKSB7XG4gICAgICAgIHN1cGVyKFwia2lzc1wiKVxuICAgIH1cblxuICAgIC8qKlxuICAgICAqIFxuICAgICAqIEBwYXJhbSB7TWVzc2FnZX0gbWVzc2FnZSBcbiAgICAgKiBAcmV0dXJucyB7Qm9vbGVhbn0gYm9vbFxuICAgICAqL1xuICAgIGlzTWF0Y2gobWVzc2FnZSl7XG4gICAgICAgIGlmKHRoaXMuZ2V0TWVtYmVyRmlyc3QoKSA9PSBudWxsKXtcbiAgICAgICAgICAgIG1lc3NhZ2UucmVwbHkoXCJUdSBkb2lzIG0nZW50aW9ubmVyIHF1ZWxxdSd1biBwb3VyIGZhaXJlIGNldHRlIGNvbW1hbmRlXCIpLmNhdGNoKGNvbnNvbGUuZXJyb3IpICAgICAgICAgICAgXG4gICAgICAgICAgICByZXR1cm4gZmFsc2U7XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICByZXR1cm4gdHJ1ZTtcbiAgICAgICAgfVxuICAgICAgICByZXR1cm4gZmFsc2U7XG4gICAgfVxuXG4gICAgLyoqXG4gICAgICogXG4gICAgICogQHBhcmFtIHtNZXNzYWdlfSBtZXNzYWdlIFxuICAgICAqL1xuICAgIGFjdGlvbihtZXNzYWdlKXtcbiAgICAgICAgdmFyIG1lbWJyZSA9IHRoaXMuZ2V0TWVtYmVyRmlyc3QoKVxuICAgICAgICB2YXIgbXNnID0gW1wiIGVtYnJhc3NlIFwiLCBcIiBjb2xsZSBzZXMgbMOodnJlcyDDoCBcIl1cbiAgICAgICAgdmFyIGFsZWF0b2lyZSA9IE1hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIG1zZy5sZW5ndGgpXG4gICAgICAgIHZhciBpbWFnZXMgPSBbXVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhL1FHYzhSZ1J2TW9uRm0vZ2lwaHkuZ2lmXCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvWjJzaXZMU2ZOOEZIMi9naXBoeS5naWZcIilcbiAgICAgICAgaW1hZ2VzLnB1c2goXCJodHRwczovL21lZGlhLmdpcGh5LmNvbS9tZWRpYS9PU3E5c291TDNqNXpXL2dpcGh5LmdpZlwiKVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhL3RabVdIbFFUMzZvWlcvZ2lwaHkuZ2lmXCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYS50ZW5vci5jb20vaW1hZ2VzL2RjMTZlODE2NGYyNjg2Yzc4NmExMDkxZGY0N2M5ZjNjL3Rlbm9yLmdpZlwiLCBcImh0dHBzOi8vbWVkaWEudGVub3IuY29tL2ltYWdlcy9hNDk2ZjZjMDhjZGYwMWM5NzM2NWU5MTdkN2EyMjlkYy90ZW5vci5naWZcIiwgXCJodHRwczovL21lZGlhMS50ZW5vci5jb20vaW1hZ2VzL2JiZGFiNGJmMDQyOTE3MTlmMjcxNGU0MzNhMGU4MTU4L3Rlbm9yLmdpZj9pdGVtaWQ9NDk0MTIwNVwiLCBcImh0dHBzOi8vbWVkaWExLnRlbm9yLmNvbS9pbWFnZXMvZDFhMTE4MDUxODA3NDJjNzAzMzlhNmJmZDc3NDVmOGQvdGVub3IuZ2lmP2l0ZW1pZD00ODgzNTU3XCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy84YzczNjczYmNlM2E3ZWU0MzYxMWRiZWY3MDgzNzNiNy90ZW5vci5naWY/aXRlbWlkPTQ4NzQ2MDJcIiwgXCJodHRwczovL21lZGlhLnRlbm9yLmNvbS9pbWFnZXMvMmY2NWU3Yzg4NjJhZjVlNDlmYmM3YjJhNzVlYTM1MzgvdGVub3IuZ2lmXCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy80ZmE0NzViMDdmNjE0YmFmZWM3ZmRjZWRkM2JjYjU0ZS90ZW5vci5naWY/aXRlbWlkPTEyMDUwOTU5XCIsIFwiaHR0cHM6Ly9tZWRpYS50ZW5vci5jb20vaW1hZ2VzL2Y1NzYxMjIzZTg2NzgzMjBkMTc3MDc4NDk1Yzk4MzlhL3Rlbm9yLmdpZlwiLCBcImh0dHBzOi8vbWVkaWExLnRlbm9yLmNvbS9pbWFnZXMvYTIzMzJmNDlmMTEwMzhmYWExYTc2YjA0OWQ1ZDQ4MTgvdGVub3IuZ2lmP2l0ZW1pZD01NjY2Nzc0XCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy8zOGNiMWFhN2I2OTE5NDExOTljMDBiOTRmMWRjYjU2Mi90ZW5vci5naWY/aXRlbWlkPTEyOTEwNDI1XCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy9jZDM1NDE1ZDYyM2ZiN2U0ODAxYmEyMTRhYjJkOThhNi90ZW5vci5naWY/aXRlbWlkPTEyOTEyMzMwXCIpXG4gICAgICAgIHZhciBhbGUgPSBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBpbWFnZXMubGVuZ3RoKVxuICAgICAgICB2YXIgZW1iZWQgPSB0aGlzLmNyZWF0RW1iZWQoKVxuICAgICAgICAgICAgLnNldEltYWdlKCBpbWFnZXNbYWxlXSApXG4gICAgICAgICAgICAuc2V0Q29sb3IoXCIjZWIzYjVhXCIpXG4gICAgICAgICAgICAuc2V0RGVzY3JpcHRpb24obWVzc2FnZS5tZW1iZXIudG9TdHJpbmcoKSArIG1zZ1thbGVhdG9pcmVdICsgbWVtYnJlLnRvU3RyaW5nKCkpXG4gICAgICAgICAgICAuc2V0VGl0bGUoaW1hZ2VzW2FsZV0pXG4gICAgICAgIG1lc3NhZ2UuY2hhbm5lbC5zZW5kKGVtYmVkKVxuICAgIH1cblxuXG5cbiAgICBwYXJzZSh0b2tlbil7XG4gICAgICAgIHN1cGVyLnBhcnNlKHRva2VuKVxuICAgIH1cbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Kiss.js"
+      ],
+      "names": [
+        "Empty",
+        "message",
+        "getMemberFirst",
+        "reply",
+        "catch",
+        "console",
+        "error",
+        "membre",
+        "msg",
+        "aleatoire",
+        "Math",
+        "floor",
+        "random",
+        "length",
+        "images",
+        "push",
+        "ale",
+        "embed",
+        "creatEmbed",
+        "setImage",
+        "setColor",
+        "setDescription",
+        "member",
+        "toString",
+        "setTitle",
+        "channel",
+        "send",
+        "token",
+        "Command"
+      ],
+      "mappings": ";;;;;;;;;;AAAA;;;;AACA;;;;;;;;;;IAEqBA,K;;;AACjB,qBAAc;AAAA;;AAAA,6GACJ,MADI;AAEb;;AAED;;;;;;;;;gCAKQC,O,EAAQ;AACZ,gBAAG,KAAKC,cAAL,MAAyB,IAA5B,EAAiC;AAC7BD,wBAAQE,KAAR,CAAc,yDAAd,EAAyEC,KAAzE,CAA+EC,QAAQC,KAAvF;AACA,uBAAO,KAAP;AACH,aAHD,MAGO;AACH,uBAAO,IAAP;AACH;AACD,mBAAO,KAAP;AACH;;AAED;;;;;;;+BAIOL,O,EAAQ;AACX,gBAAIM,SAAS,KAAKL,cAAL,EAAb;AACA,gBAAIM,MAAM,CAAC,YAAD,EAAe,sBAAf,CAAV;AACA,gBAAIC,YAAYC,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgBJ,IAAIK,MAA/B,CAAhB;AACA,gBAAIC,SAAS,EAAb;AACAA,mBAAOC,IAAP,CAAY,uDAAZ;AACAD,mBAAOC,IAAP,CAAY,uDAAZ;AACAD,mBAAOC,IAAP,CAAY,uDAAZ;AACAD,mBAAOC,IAAP,CAAY,uDAAZ;AACAD,mBAAOC,IAAP,CAAY,2EAAZ,EAAyF,2EAAzF,EAAsK,2FAAtK,EAAmQ,2FAAnQ;AACAD,mBAAOC,IAAP,CAAY,2FAAZ,EAAyG,2EAAzG,EAAsL,4FAAtL,EAAoR,2EAApR,EAAiW,2FAAjW,EAA8b,4FAA9b,EAA4hB,4FAA5hB;AACA,gBAAIC,MAAMN,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgBE,OAAOD,MAAlC,CAAV;AACA,gBAAII,QAAQ,KAAKC,UAAL,GACPC,QADO,CACGL,OAAOE,GAAP,CADH,EAEPI,QAFO,CAEE,SAFF,EAGPC,cAHO,CAGQpB,QAAQqB,MAAR,CAAeC,QAAf,KAA4Bf,IAAIC,SAAJ,CAA5B,GAA6CF,OAAOgB,QAAP,EAHrD,EAIPC,QAJO,CAIEV,OAAOE,GAAP,CAJF,CAAZ;AAKAf,oBAAQwB,OAAR,CAAgBC,IAAhB,CAAqBT,KAArB;AACH;;;8BAIKU,K,EAAM;AACR,gHAAYA,KAAZ;AACH;;;;EAhD8BC,iB;;kBAAd5B,K;AAiDpB",
+      "file": "Kiss.js",
+      "sourceRoot": "/app/src/commands",
+      "sourcesContent": [
+        "import Command from '../app/Command';\nimport { Message } from 'discord.js';\n\nexport default class Empty extends Command {\n    constructor() {\n        super(\"kiss\")\n    }\n\n    /**\n     * \n     * @param {Message} message \n     * @returns {Boolean} bool\n     */\n    isMatch(message){\n        if(this.getMemberFirst() == null){\n            message.reply(\"Tu dois m'entionner quelqu'un pour faire cette commande\").catch(console.error)            \n            return false;\n        } else {\n            return true;\n        }\n        return false;\n    }\n\n    /**\n     * \n     * @param {Message} message \n     */\n    action(message){\n        var membre = this.getMemberFirst()\n        var msg = [\" embrasse \", \" colle ses lèvres à \"]\n        var aleatoire = Math.floor(Math.random() * msg.length)\n        var images = []\n        images.push(\"https://media.giphy.com/media/QGc8RgRvMonFm/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/Z2sivLSfN8FH2/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/OSq9souL3j5zW/giphy.gif\")\n        images.push(\"https://media.giphy.com/media/tZmWHlQT36oZW/giphy.gif\")\n        images.push(\"https://media.tenor.com/images/dc16e8164f2686c786a1091df47c9f3c/tenor.gif\", \"https://media.tenor.com/images/a496f6c08cdf01c97365e917d7a229dc/tenor.gif\", \"https://media1.tenor.com/images/bbdab4bf04291719f2714e433a0e8158/tenor.gif?itemid=4941205\", \"https://media1.tenor.com/images/d1a11805180742c70339a6bfd7745f8d/tenor.gif?itemid=4883557\")\n        images.push(\"https://media1.tenor.com/images/8c73673bce3a7ee43611dbef708373b7/tenor.gif?itemid=4874602\", \"https://media.tenor.com/images/2f65e7c8862af5e49fbc7b2a75ea3538/tenor.gif\", \"https://media1.tenor.com/images/4fa475b07f614bafec7fdcedd3bcb54e/tenor.gif?itemid=12050959\", \"https://media.tenor.com/images/f5761223e8678320d177078495c9839a/tenor.gif\", \"https://media1.tenor.com/images/a2332f49f11038faa1a76b049d5d4818/tenor.gif?itemid=5666774\", \"https://media1.tenor.com/images/38cb1aa7b691941199c00b94f1dcb562/tenor.gif?itemid=12910425\", \"https://media1.tenor.com/images/cd35415d623fb7e4801ba214ab2d98a6/tenor.gif?itemid=12912330\")\n        var ale = Math.floor(Math.random() * images.length)\n        var embed = this.creatEmbed()\n            .setImage( images[ale] )\n            .setColor(\"#eb3b5a\")\n            .setDescription(message.member.toString() + msg[aleatoire] + membre.toString())\n            .setTitle(images[ale])\n        message.channel.send(embed)\n    }\n\n\n\n    parse(token){\n        super.parse(token)\n    }\n};\n"
+      ]
+    },
+    "mtime": 1543341624000
+  },
+  "{\"filename\":\"/app/src/commands/Pat.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src/commands\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "inherits",
+        "get",
+        "possibleConstructorReturn",
+        "createClass",
+        "classCallCheck",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "../app/Command",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Command"
+              }
+            ]
+          },
+          {
+            "source": "discord.js",
+            "imported": [
+              "Message"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Message",
+                "local": "Message"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "Empty"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "Empty",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/src/commands/Pat.js",
+      "filenameRelative": "/app/src/commands/Pat.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Pat.js",
+      "sourceFileName": "Pat.js",
+      "sourceRoot": "/app/src/commands",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/src/commands",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Pat"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if (\"value\" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };\n\nvar _Command2 = require('../app/Command');\n\nvar _Command3 = _interopRequireDefault(_Command2);\n\nvar _discord = require('discord.js');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Empty = function (_Command) {\n    _inherits(Empty, _Command);\n\n    function Empty() {\n        _classCallCheck(this, Empty);\n\n        return _possibleConstructorReturn(this, (Empty.__proto__ || Object.getPrototypeOf(Empty)).call(this, \"pat\"));\n    }\n\n    /**\n     * \n     * @param {Message} message \n     * @returns {Boolean} bool\n     */\n\n\n    _createClass(Empty, [{\n        key: 'isMatch',\n        value: function isMatch(message) {\n            if (this.getMemberFirst() == null) {\n                message.reply(\"Tu dois m'entionner quelqu'un pour faire cette commande\").catch(console.error);\n                return false;\n            } else {\n                return true;\n            }\n            return false;\n        }\n\n        /**\n         * \n         * @param {Message} message \n         */\n\n    }, {\n        key: 'action',\n        value: function action(message) {\n            var membre = this.getMemberFirst();\n            var msg = [\"fait un patpat à \"];\n            var images = [];\n            images.push(\"https://media.giphy.com/media/4HP0ddZnNVvKU/giphy.gif\", \"https://media.giphy.com/media/5tmRHwTlHAA9WkVxTU/giphy.gif\", \"https://media.giphy.com/media/L2z7dnOduqEow/giphy.gif\", \"https://media.giphy.com/media/109ltuoSQT212w/giphy.gif\");\n            images.push(\"https://media1.tenor.com/images/60991d021f0f2d4f065ac9b4f00948dc/tenor.gif?itemid=11728232\", \"https://media1.tenor.com/images/005e8df693c0f59e442b0bf95c22d0f5/tenor.gif?itemid=10947495\", \"https://media1.tenor.com/images/116fe7ede5b7976920fac3bf8067d42b/tenor.gif?itemid=9200932\", \"https://media.tenor.com/images/848178182a43658d02500825bf8f41d7/tenor.gif\");\n            var ale = Math.floor(Math.random() * images.length);\n            var embed = this.creatEmbed().setImage(images[ale]).setColor(\"#eb3b5a\").setDescription(message.member.toString() + msg[0] + membre.toString()).setTitle(images[ale]);\n            message.channel.send(embed);\n        }\n    }, {\n        key: 'parse',\n        value: function parse(token) {\n            _get(Empty.prototype.__proto__ || Object.getPrototypeOf(Empty.prototype), 'parse', this).call(this, token);\n        }\n    }]);\n\n    return Empty;\n}(_Command3.default);\n\nexports.default = Empty;\n;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlBhdC5qcyJdLCJuYW1lcyI6WyJFbXB0eSIsIm1lc3NhZ2UiLCJnZXRNZW1iZXJGaXJzdCIsInJlcGx5IiwiY2F0Y2giLCJjb25zb2xlIiwiZXJyb3IiLCJtZW1icmUiLCJtc2ciLCJpbWFnZXMiLCJwdXNoIiwiYWxlIiwiTWF0aCIsImZsb29yIiwicmFuZG9tIiwibGVuZ3RoIiwiZW1iZWQiLCJjcmVhdEVtYmVkIiwic2V0SW1hZ2UiLCJzZXRDb2xvciIsInNldERlc2NyaXB0aW9uIiwibWVtYmVyIiwidG9TdHJpbmciLCJzZXRUaXRsZSIsImNoYW5uZWwiLCJzZW5kIiwidG9rZW4iLCJDb21tYW5kIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7Ozs7OztJQUVxQkEsSzs7O0FBQ2pCLHFCQUFjO0FBQUE7O0FBQUEsNkdBQ0osS0FESTtBQUViOztBQUVEOzs7Ozs7Ozs7Z0NBS1FDLE8sRUFBUTtBQUNaLGdCQUFHLEtBQUtDLGNBQUwsTUFBeUIsSUFBNUIsRUFBaUM7QUFDN0JELHdCQUFRRSxLQUFSLENBQWMseURBQWQsRUFBeUVDLEtBQXpFLENBQStFQyxRQUFRQyxLQUF2RjtBQUNBLHVCQUFPLEtBQVA7QUFDSCxhQUhELE1BR087QUFDSCx1QkFBTyxJQUFQO0FBQ0g7QUFDRCxtQkFBTyxLQUFQO0FBQ0g7O0FBRUQ7Ozs7Ozs7K0JBSU9MLE8sRUFBUTtBQUNYLGdCQUFJTSxTQUFTLEtBQUtMLGNBQUwsRUFBYjtBQUNBLGdCQUFJTSxNQUFNLENBQUMsbUJBQUQsQ0FBVjtBQUNBLGdCQUFJQyxTQUFTLEVBQWI7QUFDQUEsbUJBQU9DLElBQVAsQ0FBWSx1REFBWixFQUFxRSw0REFBckUsRUFBbUksdURBQW5JLEVBQTRMLHdEQUE1TDtBQUNBRCxtQkFBT0MsSUFBUCxDQUFZLDRGQUFaLEVBQTBHLDRGQUExRyxFQUF3TSwyRkFBeE0sRUFBcVMsMkVBQXJTO0FBQ0EsZ0JBQUlDLE1BQU1DLEtBQUtDLEtBQUwsQ0FBV0QsS0FBS0UsTUFBTCxLQUFnQkwsT0FBT00sTUFBbEMsQ0FBVjtBQUNBLGdCQUFJQyxRQUFRLEtBQUtDLFVBQUwsR0FDUEMsUUFETyxDQUNHVCxPQUFPRSxHQUFQLENBREgsRUFFUFEsUUFGTyxDQUVFLFNBRkYsRUFHUEMsY0FITyxDQUdRbkIsUUFBUW9CLE1BQVIsQ0FBZUMsUUFBZixLQUE0QmQsSUFBSSxDQUFKLENBQTVCLEdBQXFDRCxPQUFPZSxRQUFQLEVBSDdDLEVBSVBDLFFBSk8sQ0FJRWQsT0FBT0UsR0FBUCxDQUpGLENBQVo7QUFLQVYsb0JBQVF1QixPQUFSLENBQWdCQyxJQUFoQixDQUFxQlQsS0FBckI7QUFDSDs7OzhCQUlLVSxLLEVBQU07QUFDUixnSEFBWUEsS0FBWjtBQUNIOzs7O0VBM0M4QkMsaUI7O2tCQUFkM0IsSztBQTRDcEIiLCJmaWxlIjoiUGF0LmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc3JjL2NvbW1hbmRzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENvbW1hbmQgZnJvbSAnLi4vYXBwL0NvbW1hbmQnO1xuaW1wb3J0IHsgTWVzc2FnZSB9IGZyb20gJ2Rpc2NvcmQuanMnO1xuXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBFbXB0eSBleHRlbmRzIENvbW1hbmQge1xuICAgIGNvbnN0cnVjdG9yKCkge1xuICAgICAgICBzdXBlcihcInBhdFwiKVxuICAgIH1cblxuICAgIC8qKlxuICAgICAqIFxuICAgICAqIEBwYXJhbSB7TWVzc2FnZX0gbWVzc2FnZSBcbiAgICAgKiBAcmV0dXJucyB7Qm9vbGVhbn0gYm9vbFxuICAgICAqL1xuICAgIGlzTWF0Y2gobWVzc2FnZSl7XG4gICAgICAgIGlmKHRoaXMuZ2V0TWVtYmVyRmlyc3QoKSA9PSBudWxsKXtcbiAgICAgICAgICAgIG1lc3NhZ2UucmVwbHkoXCJUdSBkb2lzIG0nZW50aW9ubmVyIHF1ZWxxdSd1biBwb3VyIGZhaXJlIGNldHRlIGNvbW1hbmRlXCIpLmNhdGNoKGNvbnNvbGUuZXJyb3IpICAgICAgICAgICAgXG4gICAgICAgICAgICByZXR1cm4gZmFsc2U7XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICByZXR1cm4gdHJ1ZTtcbiAgICAgICAgfVxuICAgICAgICByZXR1cm4gZmFsc2U7XG4gICAgfVxuXG4gICAgLyoqXG4gICAgICogXG4gICAgICogQHBhcmFtIHtNZXNzYWdlfSBtZXNzYWdlIFxuICAgICAqL1xuICAgIGFjdGlvbihtZXNzYWdlKXtcbiAgICAgICAgdmFyIG1lbWJyZSA9IHRoaXMuZ2V0TWVtYmVyRmlyc3QoKVxuICAgICAgICB2YXIgbXNnID0gW1wiZmFpdCB1biBwYXRwYXQgw6AgXCJdXG4gICAgICAgIHZhciBpbWFnZXMgPSBbXVxuICAgICAgICBpbWFnZXMucHVzaChcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhLzRIUDBkZFpuTlZ2S1UvZ2lwaHkuZ2lmXCIsIFwiaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvNXRtUkh3VGxIQUE5V2tWeFRVL2dpcGh5LmdpZlwiLCBcImh0dHBzOi8vbWVkaWEuZ2lwaHkuY29tL21lZGlhL0wyejdkbk9kdXFFb3cvZ2lwaHkuZ2lmXCIsIFwiaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvMTA5bHR1b1NRVDIxMncvZ2lwaHkuZ2lmXCIpXG4gICAgICAgIGltYWdlcy5wdXNoKFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy82MDk5MWQwMjFmMGYyZDRmMDY1YWM5YjRmMDA5NDhkYy90ZW5vci5naWY/aXRlbWlkPTExNzI4MjMyXCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy8wMDVlOGRmNjkzYzBmNTllNDQyYjBiZjk1YzIyZDBmNS90ZW5vci5naWY/aXRlbWlkPTEwOTQ3NDk1XCIsIFwiaHR0cHM6Ly9tZWRpYTEudGVub3IuY29tL2ltYWdlcy8xMTZmZTdlZGU1Yjc5NzY5MjBmYWMzYmY4MDY3ZDQyYi90ZW5vci5naWY/aXRlbWlkPTkyMDA5MzJcIiwgXCJodHRwczovL21lZGlhLnRlbm9yLmNvbS9pbWFnZXMvODQ4MTc4MTgyYTQzNjU4ZDAyNTAwODI1YmY4ZjQxZDcvdGVub3IuZ2lmXCIpXG4gICAgICAgIHZhciBhbGUgPSBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBpbWFnZXMubGVuZ3RoKVxuICAgICAgICB2YXIgZW1iZWQgPSB0aGlzLmNyZWF0RW1iZWQoKVxuICAgICAgICAgICAgLnNldEltYWdlKCBpbWFnZXNbYWxlXSApXG4gICAgICAgICAgICAuc2V0Q29sb3IoXCIjZWIzYjVhXCIpXG4gICAgICAgICAgICAuc2V0RGVzY3JpcHRpb24obWVzc2FnZS5tZW1iZXIudG9TdHJpbmcoKSArIG1zZ1swXSArIG1lbWJyZS50b1N0cmluZygpKVxuICAgICAgICAgICAgLnNldFRpdGxlKGltYWdlc1thbGVdKVxuICAgICAgICBtZXNzYWdlLmNoYW5uZWwuc2VuZChlbWJlZClcbiAgICB9XG5cblxuXG4gICAgcGFyc2UodG9rZW4pe1xuICAgICAgICBzdXBlci5wYXJzZSh0b2tlbilcbiAgICB9XG59O1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Pat.js"
+      ],
+      "names": [
+        "Empty",
+        "message",
+        "getMemberFirst",
+        "reply",
+        "catch",
+        "console",
+        "error",
+        "membre",
+        "msg",
+        "images",
+        "push",
+        "ale",
+        "Math",
+        "floor",
+        "random",
+        "length",
+        "embed",
+        "creatEmbed",
+        "setImage",
+        "setColor",
+        "setDescription",
+        "member",
+        "toString",
+        "setTitle",
+        "channel",
+        "send",
+        "token",
+        "Command"
+      ],
+      "mappings": ";;;;;;;;;;AAAA;;;;AACA;;;;;;;;;;IAEqBA,K;;;AACjB,qBAAc;AAAA;;AAAA,6GACJ,KADI;AAEb;;AAED;;;;;;;;;gCAKQC,O,EAAQ;AACZ,gBAAG,KAAKC,cAAL,MAAyB,IAA5B,EAAiC;AAC7BD,wBAAQE,KAAR,CAAc,yDAAd,EAAyEC,KAAzE,CAA+EC,QAAQC,KAAvF;AACA,uBAAO,KAAP;AACH,aAHD,MAGO;AACH,uBAAO,IAAP;AACH;AACD,mBAAO,KAAP;AACH;;AAED;;;;;;;+BAIOL,O,EAAQ;AACX,gBAAIM,SAAS,KAAKL,cAAL,EAAb;AACA,gBAAIM,MAAM,CAAC,mBAAD,CAAV;AACA,gBAAIC,SAAS,EAAb;AACAA,mBAAOC,IAAP,CAAY,uDAAZ,EAAqE,4DAArE,EAAmI,uDAAnI,EAA4L,wDAA5L;AACAD,mBAAOC,IAAP,CAAY,4FAAZ,EAA0G,4FAA1G,EAAwM,2FAAxM,EAAqS,2EAArS;AACA,gBAAIC,MAAMC,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgBL,OAAOM,MAAlC,CAAV;AACA,gBAAIC,QAAQ,KAAKC,UAAL,GACPC,QADO,CACGT,OAAOE,GAAP,CADH,EAEPQ,QAFO,CAEE,SAFF,EAGPC,cAHO,CAGQnB,QAAQoB,MAAR,CAAeC,QAAf,KAA4Bd,IAAI,CAAJ,CAA5B,GAAqCD,OAAOe,QAAP,EAH7C,EAIPC,QAJO,CAIEd,OAAOE,GAAP,CAJF,CAAZ;AAKAV,oBAAQuB,OAAR,CAAgBC,IAAhB,CAAqBT,KAArB;AACH;;;8BAIKU,K,EAAM;AACR,gHAAYA,KAAZ;AACH;;;;EA3C8BC,iB;;kBAAd3B,K;AA4CpB",
+      "file": "Pat.js",
+      "sourceRoot": "/app/src/commands",
+      "sourcesContent": [
+        "import Command from '../app/Command';\nimport { Message } from 'discord.js';\n\nexport default class Empty extends Command {\n    constructor() {\n        super(\"pat\")\n    }\n\n    /**\n     * \n     * @param {Message} message \n     * @returns {Boolean} bool\n     */\n    isMatch(message){\n        if(this.getMemberFirst() == null){\n            message.reply(\"Tu dois m'entionner quelqu'un pour faire cette commande\").catch(console.error)            \n            return false;\n        } else {\n            return true;\n        }\n        return false;\n    }\n\n    /**\n     * \n     * @param {Message} message \n     */\n    action(message){\n        var membre = this.getMemberFirst()\n        var msg = [\"fait un patpat à \"]\n        var images = []\n        images.push(\"https://media.giphy.com/media/4HP0ddZnNVvKU/giphy.gif\", \"https://media.giphy.com/media/5tmRHwTlHAA9WkVxTU/giphy.gif\", \"https://media.giphy.com/media/L2z7dnOduqEow/giphy.gif\", \"https://media.giphy.com/media/109ltuoSQT212w/giphy.gif\")\n        images.push(\"https://media1.tenor.com/images/60991d021f0f2d4f065ac9b4f00948dc/tenor.gif?itemid=11728232\", \"https://media1.tenor.com/images/005e8df693c0f59e442b0bf95c22d0f5/tenor.gif?itemid=10947495\", \"https://media1.tenor.com/images/116fe7ede5b7976920fac3bf8067d42b/tenor.gif?itemid=9200932\", \"https://media.tenor.com/images/848178182a43658d02500825bf8f41d7/tenor.gif\")\n        var ale = Math.floor(Math.random() * images.length)\n        var embed = this.creatEmbed()\n            .setImage( images[ale] )\n            .setColor(\"#eb3b5a\")\n            .setDescription(message.member.toString() + msg[0] + membre.toString())\n            .setTitle(images[ale])\n        message.channel.send(embed)\n    }\n\n\n\n    parse(token){\n        super.parse(token)\n    }\n};\n"
+      ]
+    },
+    "mtime": 1542652666000
+  }
+}

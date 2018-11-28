@@ -31,7 +31,7 @@ export default class Hug extends Command {
         let msg = [" fait un câlin à ", " tombe dans les bras de ", " prend dans ses bras ", " se colle à ", " se jette sur "]
         let msgr = Math.floor(Math.random() * msg.length)
         var images = []
-        images.push("https://media.giphy.com/media/BXrwTdoho6hkQ/giphy.gif", "https://i.gifer.com/embedded/download/OuSL.gif", "https://media1.tenor.com/images/87feeff9cc8cf5c207081d136bc20522/tenor.gif?itemid=12879962")
+        images.push("https://media.giphy.com/media/BXrwTdoho6hkQ/giphy.gif", "https://media1.tenor.com/images/87feeff9cc8cf5c207081d136bc20522/tenor.gif?itemid=12879962")
         images.push("https://media.giphy.com/media/2A8wpqmaiM3bBWgNq8/giphy.gif")
         images.push("https://media.giphy.com/media/xUmU6i3QSuAoaXuqHV/giphy.gif")
         images.push("https://media.giphy.com/media/Qf6lspOy5FTGRiPFd2/giphy.gif")
